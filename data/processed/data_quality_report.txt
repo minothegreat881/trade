@@ -1,0 +1,56 @@
+============================================================
+DATA QUALITY REPORT
+============================================================
+
+📊 DATASET OVERVIEW
+Rows: 1,192
+Columns: 20
+Date range: 2020-03-30 to 2024-12-20
+Duration: 1726 days
+
+📋 MISSING VALUES
+Total missing: 0
+Percentage: 0.00%
+
+📅 DATE CONTINUITY
+✓ No significant date gaps
+
+🔍 OUTLIERS (>5 std)
+⚠️  Found 38 outliers
+Outliers by column:
+  - Volume: 1
+  - Dividends: 19
+  - return_1d: 2
+  - return_5d: 1
+  - return_10d: 1
+  - volatility_20d: 10
+  - volume_ratio: 4
+
+📈 FEATURE STATISTICS
+Number of features: 11
+
+Feature ranges:
+  - return_1d: [-0.0576, 0.0672] (mean: 0.0008)
+  - return_5d: [-0.1007, 0.1736] (mean: 0.0043)
+  - return_10d: [-0.1216, 0.1880] (mean: 0.0087)
+  - return_20d: [-0.2086, 0.2307] (mean: 0.0161)
+  - volatility_20d: [0.0034, 0.0583] (mean: 0.0106)
+  - volatility_60d: [0.0056, 0.0387] (mean: 0.0114)
+  - volume_ratio: [0.3629, 2.6766] (mean: 0.9955)
+  - price_position: [0.0002, 1.0000] (mean: 0.6757)
+  - sma_20: [231.4195, 594.4613] (mean: 409.8101)
+  - sma_50: [249.9270, 584.2800] (mean: 405.9628)
+
+🎯 TARGET VARIABLE
+Non-null values: 1,192
+Mean: 0.004169
+Std: 0.023468
+Min: -0.100712
+Max: 0.113264
+Positive returns: 61.2%
+
+⭐ DATA QUALITY SCORE
+Score: 100/100
+Status: ✓ EXCELLENT
+
+============================================================

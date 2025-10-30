@@ -1,0 +1,20 @@
+feature,importance
+Close,0.13502231
+Low,0.0950754
+volatility_60d,0.08907289
+sma_20,0.08225975
+sma_50,0.07177502
+High,0.061876852
+return_5d,0.057862062
+volatility_20d,0.055663235
+return_20d,0.054752395
+price_position,0.05278536
+Volume,0.051922668
+return_1d,0.04538376
+volume_ratio,0.044147596
+Open,0.039005082
+return_10d,0.03699765
+trend,0.026397938
+Capital Gains,0.0
+Stock Splits,0.0
+Dividends,0.0

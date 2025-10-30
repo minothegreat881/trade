@@ -1,0 +1,74 @@
+{
+  "baseline": {
+    "sharpe_ratio": 1.2831477486430867,
+    "sortino_ratio": 1.7124850195921253,
+    "annual_return": 0.12719243241562306,
+    "total_return": 0.18541458426598711,
+    "max_drawdown": -0.08000535805181012,
+    "max_drawdown_pct": -8.000535805181013,
+    "return_dd_ratio": 1.5897989273825308,
+    "win_rate": 0.5900900900900901,
+    "profit_factor": 1.5238322134253717,
+    "total_trades": 222,
+    "mean_return": 0.0004953118205173673,
+    "std_return": 0.0061277677488290275,
+    "drawdown_info": {
+      "max_drawdown": -0.08000535805181012,
+      "max_drawdown_pct": -8.000535805181013,
+      "peak_date": "2023-07-31 00:00:00",
+      "trough_date": "2023-10-27 00:00:00",
+      "recovery_date": "2023-12-11 00:00:00",
+      "drawdown_duration": 88
+    }
+  },
+  "regime": {
+    "sharpe_ratio": 0.9330526244390255,
+    "sortino_ratio": 1.196109763725824,
+    "annual_return": 0.0865607627321896,
+    "total_return": 0.12517376383280565,
+    "max_drawdown": -0.07807010064164747,
+    "max_drawdown_pct": -7.807010064164747,
+    "return_dd_ratio": 1.108756899514136,
+    "win_rate": 0.586046511627907,
+    "profit_factor": 1.3654285141800928,
+    "total_trades": 215,
+    "mean_return": 0.00034791334347176274,
+    "std_return": 0.0059192300231556885,
+    "drawdown_info": {
+      "max_drawdown": -0.07807010064164747,
+      "max_drawdown_pct": -7.807010064164747,
+      "peak_date": "2023-07-31 00:00:00",
+      "trough_date": "2023-10-27 00:00:00",
+      "recovery_date": "2023-12-18 00:00:00",
+      "drawdown_duration": 88
+    },
+    "regime_stats": {
+      "BULL": {
+        "num_trades": 215,
+        "win_rate": 0,
+        "avg_return": 0,
+        "total_pnl": 1251.7376383280648
+      },
+      "BEAR": {
+        "num_trades": 0,
+        "win_rate": 0,
+        "avg_return": 0,
+        "total_pnl": 0
+      },
+      "SIDEWAYS": {
+        "num_trades": 0,
+        "win_rate": 0,
+        "avg_return": 0,
+        "total_pnl": 0
+      }
+    },
+    "regimes": "Date\n2023-07-24    BULL\n2023-07-25    BULL\n2023-07-26    BULL\n2023-07-27    BULL\n2023-07-28    BULL\n              ... \n2024-12-16    BULL\n2024-12-17    BULL\n2024-12-18    BULL\n2024-12-19    BULL\n2024-12-20    BULL\nName: regime, Length: 358, dtype: object"
+  },
+  "method": "rule_based",
+  "improvement": {
+    "sharpe_ratio": -0.3500951242040612,
+    "annual_return": -0.04063166968343346,
+    "max_drawdown": 0.0019352574101626496,
+    "win_rate": -0.004043578462183062
+  }
+}

@@ -1,0 +1,12 @@
+feature,importance
+volatility_20d,0.14293613
+sma_50,0.13030839
+sma_20,0.12949242
+volatility_60d,0.11446467
+return_5d,0.0951609
+price_position,0.09425555
+return_10d,0.08720703
+return_20d,0.081722006
+volume_ratio,0.0690974
+return_1d,0.055355445
+trend,0.0

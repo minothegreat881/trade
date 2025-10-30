@@ -1,0 +1,48 @@
+======================================================================
+BASELINE MODEL PERFORMANCE REPORT
+======================================================================
+
+MODEL CONFIGURATION
+----------------------------------------------------------------------
+Model Type: Ridge Regression
+Regularization (alpha): 1.0
+Number of Features: 11
+Training R2: 0.1219
+
+BACKTEST CONFIGURATION
+----------------------------------------------------------------------
+Initial Capital: $10,000
+Holding Period: 5 days
+Transaction Cost: 0.10%
+Position Size: 50% of capital
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Total Return:              0.27%
+Annual Return:             0.19%
+Sharpe Ratio:              0.09
+Sortino Ratio:             0.04
+Max Drawdown:             -4.16%
+Return/DD Ratio:           0.05
+Win Rate:                  50.0%
+Profit Factor:             1.09
+Total Trades:                12
+
+BENCHMARK COMPARISON
+----------------------------------------------------------------------
+Strategy Return:           0.27%
+Benchmark Return:         32.82%
+Outperformance:          -32.55%
+
+TOP 10 FEATURES
+----------------------------------------------------------------------
+ 1. sma_20                    (-)   0.0263
+ 2. sma_50                    (+)   0.0182
+ 3. price_position            (+)   0.0064
+ 4. return_5d                 (-)   0.0052
+ 5. return_20d                (-)   0.0052
+ 6. return_1d                 (-)   0.0014
+ 7. volume_ratio              (+)   0.0011
+ 8. volatility_60d            (-)   0.0010
+ 9. return_10d                (-)   0.0004
+10. trend                     (+)   0.0002

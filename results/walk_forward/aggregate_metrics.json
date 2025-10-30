@@ -1,0 +1,14 @@
+{
+  "num_windows": 34,
+  "mean_sharpe": 1.1294467104535673,
+  "std_sharpe": 2.846964937439058,
+  "min_sharpe": -4.927438088009089,
+  "max_sharpe": 6.9459303118885485,
+  "median_sharpe": 0.0,
+  "positive_sharpe_pct": 41.17647058823529,
+  "mean_return": 0.07099881380077185,
+  "std_return": 0.2067841024556338,
+  "mean_drawdown": -1.0632133261257362,
+  "worst_drawdown": -4.615110530282561,
+  "mean_win_rate": 0.3721899016016663
+}
