@@ -185,9 +185,13 @@ class SentimentCollector:
             else:
                 vix_close = vix.iloc[:, 0]  # First column if structure unclear
 
+            # Ensure it's a Series (squeeze if necessary)
+            if isinstance(vix_close, pd.DataFrame):
+                vix_close = vix_close.squeeze()
+
             df = pd.DataFrame({
                 'VIX': vix_close
-            })
+            }, index=vix_close.index)
 
             # Save to cache
             df.to_csv(cache_file)
@@ -240,10 +244,16 @@ class SentimentCollector:
                 btc_close = btc.iloc[:, 3]  # Close is usually 4th column
                 btc_volume = btc.iloc[:, 5]  # Volume is usually 6th column
 
+            # Ensure they're Series (squeeze if necessary)
+            if isinstance(btc_close, pd.DataFrame):
+                btc_close = btc_close.squeeze()
+            if isinstance(btc_volume, pd.DataFrame):
+                btc_volume = btc_volume.squeeze()
+
             df = pd.DataFrame({
                 'BTC_Close': btc_close,
                 'BTC_Volume': btc_volume
-            })
+            }, index=btc_close.index)
 
             # Calculate returns
             df['BTC_return_1d'] = df['BTC_Close'].pct_change()

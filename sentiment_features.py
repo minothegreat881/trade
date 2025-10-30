@@ -323,7 +323,7 @@ class SentimentFeatureEngineer:
         print("=" * 70)
         print(f"Total features: {len(all_features.columns)}")
         print(f"Total rows: {len(all_features)}")
-        print(f"Date range: {all_features.index.min().date()} to {all_features.index.max().date()}")
+        # print(f"Date range: {all_features.index.min().date()} to {all_features.index.max().date()}")
         print("\nFeature list:")
         for i, col in enumerate(all_features.columns, 1):
             print(f"  {i:2d}. {col}")

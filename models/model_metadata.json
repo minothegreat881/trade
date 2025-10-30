@@ -1,0 +1,159 @@
+{
+  "model_version": "1.0.0",
+  "created_at": "2025-10-30T14:19:08.182864",
+  "training_period": {
+    "start": "2020-03-30T00:00:00",
+    "end": "2023-07-21T00:00:00",
+    "days": 834
+  },
+  "test_period": {
+    "start": "2023-07-24T00:00:00",
+    "end": "2024-12-20T00:00:00",
+    "days": 358
+  },
+  "features": {
+    "total": 17,
+    "technical": 11,
+    "sentiment": 6,
+    "list": [
+      "return_1d",
+      "return_5d",
+      "return_10d",
+      "return_20d",
+      "volatility_20d",
+      "volatility_60d",
+      "volume_ratio",
+      "price_position",
+      "sma_20",
+      "sma_50",
+      "trend",
+      "fear_greed_ma5",
+      "fear_greed_ma10",
+      "fear_greed_extreme_fear",
+      "fear_greed_extreme_greed",
+      "fear_greed_change_5d",
+      "composite_sentiment"
+    ],
+    "technical_list": [
+      "return_1d",
+      "return_5d",
+      "return_10d",
+      "return_20d",
+      "volatility_20d",
+      "volatility_60d",
+      "volume_ratio",
+      "price_position",
+      "sma_20",
+      "sma_50",
+      "trend"
+    ],
+    "sentiment_list": [
+      "fear_greed_ma5",
+      "fear_greed_ma10",
+      "fear_greed_extreme_fear",
+      "fear_greed_extreme_greed",
+      "fear_greed_change_5d",
+      "composite_sentiment"
+    ]
+  },
+  "hyperparameters": {
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "n_estimators": 100,
+    "min_child_weight": 5
+  },
+  "feature_importances": [
+    {
+      "feature": "fear_greed_ma10",
+      "importance": 0.14755888283252716,
+      "type": "sentiment"
+    },
+    {
+      "feature": "return_20d",
+      "importance": 0.1259072721004486,
+      "type": "technical"
+    },
+    {
+      "feature": "sma_50",
+      "importance": 0.08803471177816391,
+      "type": "technical"
+    },
+    {
+      "feature": "price_position",
+      "importance": 0.07895293831825256,
+      "type": "technical"
+    },
+    {
+      "feature": "volatility_60d",
+      "importance": 0.07345164567232132,
+      "type": "technical"
+    },
+    {
+      "feature": "return_10d",
+      "importance": 0.06905004382133484,
+      "type": "technical"
+    },
+    {
+      "feature": "sma_20",
+      "importance": 0.06836645305156708,
+      "type": "technical"
+    },
+    {
+      "feature": "fear_greed_extreme_fear",
+      "importance": 0.06446696072816849,
+      "type": "sentiment"
+    },
+    {
+      "feature": "return_5d",
+      "importance": 0.06347827613353729,
+      "type": "technical"
+    },
+    {
+      "feature": "volatility_20d",
+      "importance": 0.05987665057182312,
+      "type": "technical"
+    },
+    {
+      "feature": "fear_greed_ma5",
+      "importance": 0.05651054158806801,
+      "type": "sentiment"
+    },
+    {
+      "feature": "return_1d",
+      "importance": 0.044039033353328705,
+      "type": "technical"
+    },
+    {
+      "feature": "volume_ratio",
+      "importance": 0.04350074753165245,
+      "type": "technical"
+    },
+    {
+      "feature": "fear_greed_change_5d",
+      "importance": 0.016805853694677353,
+      "type": "sentiment"
+    },
+    {
+      "feature": "trend",
+      "importance": 0.0,
+      "type": "technical"
+    },
+    {
+      "feature": "fear_greed_extreme_greed",
+      "importance": 0.0,
+      "type": "sentiment"
+    },
+    {
+      "feature": "composite_sentiment",
+      "importance": 0.0,
+      "type": "sentiment"
+    }
+  ],
+  "test_performance": {
+    "sharpe_ratio": 0.4207862543633956,
+    "annual_return": 0.029624463521422895,
+    "max_drawdown": -0.08000535805181012,
+    "win_rate": 0.5833333333333334,
+    "num_trades": 72
+  }
+}

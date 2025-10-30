@@ -1,0 +1,255 @@
+{
+  "model_version": "5.0.0-advanced-features",
+  "created_at": "2025-10-30T16:38:28.095368",
+  "features": {
+    "total": 108,
+    "basic": 24,
+    "sentiment": 15,
+    "momentum": 16,
+    "volatility": 12,
+    "trend": 9,
+    "volume": 18,
+    "pattern": 14,
+    "timeframe": 9,
+    "microstructure": 8,
+    "list": [
+      "BTC_return_5d",
+      "BTC_return_10d",
+      "return_1d",
+      "return_5d",
+      "return_10d",
+      "return_20d",
+      "volatility_20d",
+      "volatility_60d",
+      "volume_ratio",
+      "price_position",
+      "sma_20",
+      "sma_50",
+      "trend",
+      "fear_greed_ma5",
+      "fear_greed_ma10",
+      "fear_greed_extreme_fear",
+      "fear_greed_extreme_greed",
+      "fear_greed_change_5d",
+      "vix_ma5",
+      "vix_ma20",
+      "vix_regime",
+      "vix_spike",
+      "vix_zscore",
+      "btc_return_5d",
+      "btc_return_10d",
+      "btc_volatility_10d",
+      "btc_momentum",
+      "composite_sentiment",
+      "rsi_14",
+      "rsi_30",
+      "rsi_7",
+      "macd",
+      "macd_signal",
+      "macd_hist",
+      "stoch_k",
+      "stoch_d",
+      "willr",
+      "roc",
+      "momentum",
+      "rsi_14_ma",
+      "rsi_divergence",
+      "macd_crossover",
+      "atr_14",
+      "atr_20",
+      "bb_middle",
+      "bb_upper",
+      "bb_lower",
+      "bb_width",
+      "bb_position",
+      "bb_squeeze",
+      "hist_vol_20",
+      "hist_vol_60",
+      "vol_ratio",
+      "parkinson_vol",
+      "plus_di",
+      "minus_di",
+      "adx",
+      "aroon_up",
+      "aroon_down",
+      "aroon_osc",
+      "trend_strength",
+      "di_diff",
+      "linreg_slope_20",
+      "linreg_slope_50",
+      "obv",
+      "mfi",
+      "ad",
+      "vwap",
+      "volume_sma_20",
+      "volume_ratio_adv",
+      "volume_trend",
+      "obv_slope",
+      "pv_corr",
+      "higher_high",
+      "lower_low",
+      "gap_up",
+      "gap_down",
+      "body_size",
+      "upper_shadow",
+      "lower_shadow",
+      "is_doji",
+      "bullish_engulfing",
+      "bearish_engulfing",
+      "resistance_20",
+      "support_20",
+      "distance_to_resistance",
+      "distance_to_support",
+      "weekly_return",
+      "weekly_high",
+      "weekly_low",
+      "weekly_range",
+      "monthly_return",
+      "monthly_high",
+      "monthly_low",
+      "position_in_weekly_range",
+      "position_in_monthly_range",
+      "sma_10",
+      "sma_50_adv",
+      "sma_200",
+      "trend_alignment",
+      "spread",
+      "spread_ma",
+      "spread_ratio",
+      "price_impact",
+      "liquidity",
+      "intraday_vol",
+      "overnight_return",
+      "intraday_momentum"
+    ]
+  },
+  "test_performance": {
+    "sharpe_ratio": 1.2844979913595627,
+    "annual_return": 0.11617716512265086,
+    "max_drawdown": -0.047911296035945364,
+    "win_rate": 0.6377952755905512,
+    "num_trades": 127
+  },
+  "top_features": [
+    {
+      "feature": "sma_200",
+      "importance": 0.05645696073770523
+    },
+    {
+      "feature": "fear_greed_ma5",
+      "importance": 0.04357213154435158
+    },
+    {
+      "feature": "ad",
+      "importance": 0.04188765957951546
+    },
+    {
+      "feature": "sma_20",
+      "importance": 0.041078224778175354
+    },
+    {
+      "feature": "rsi_14",
+      "importance": 0.04053212329745293
+    },
+    {
+      "feature": "vix_ma5",
+      "importance": 0.038322657346725464
+    },
+    {
+      "feature": "obv_slope",
+      "importance": 0.035179756581783295
+    },
+    {
+      "feature": "fear_greed_ma10",
+      "importance": 0.03305855765938759
+    },
+    {
+      "feature": "vol_ratio",
+      "importance": 0.03264343738555908
+    },
+    {
+      "feature": "obv",
+      "importance": 0.03223675489425659
+    },
+    {
+      "feature": "bb_upper",
+      "importance": 0.03161315247416496
+    },
+    {
+      "feature": "linreg_slope_20",
+      "importance": 0.031066851690411568
+    },
+    {
+      "feature": "mfi",
+      "importance": 0.028482064604759216
+    },
+    {
+      "feature": "linreg_slope_50",
+      "importance": 0.02826044149696827
+    },
+    {
+      "feature": "rsi_30",
+      "importance": 0.026977818459272385
+    },
+    {
+      "feature": "bb_lower",
+      "importance": 0.023429108783602715
+    },
+    {
+      "feature": "stoch_d",
+      "importance": 0.02295222133398056
+    },
+    {
+      "feature": "btc_volatility_10d",
+      "importance": 0.022795643657445908
+    },
+    {
+      "feature": "sma_10",
+      "importance": 0.022058885544538498
+    },
+    {
+      "feature": "di_diff",
+      "importance": 0.019946392625570297
+    },
+    {
+      "feature": "macd_signal",
+      "importance": 0.019217759370803833
+    },
+    {
+      "feature": "vix_zscore",
+      "importance": 0.018911855295300484
+    },
+    {
+      "feature": "intraday_momentum",
+      "importance": 0.01873992383480072
+    },
+    {
+      "feature": "resistance_20",
+      "importance": 0.01751776784658432
+    },
+    {
+      "feature": "BTC_return_10d",
+      "importance": 0.017035681754350662
+    },
+    {
+      "feature": "BTC_return_5d",
+      "importance": 0.0164498183876276
+    },
+    {
+      "feature": "composite_sentiment",
+      "importance": 0.01537348236888647
+    },
+    {
+      "feature": "macd_hist",
+      "importance": 0.014555106870830059
+    },
+    {
+      "feature": "vix_ma20",
+      "importance": 0.013941401615738869
+    },
+    {
+      "feature": "return_5d",
+      "importance": 0.013536565937101841
+    }
+  ]
+}

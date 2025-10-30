@@ -1,0 +1,48 @@
+{
+  "test_date": "2025-10-30T16:57:42.776373",
+  "test_period": {
+    "start": "2024-11-07",
+    "end": "2025-10-23",
+    "days": 240
+  },
+  "models": {
+    "test1": {
+      "sharpe": 0.61,
+      "features": 28,
+      "trades": 172,
+      "description": "WITH VIX/BTC"
+    },
+    "test2": {
+      "sharpe": 0.55,
+      "features": 17,
+      "trades": 101,
+      "description": "NO VIX/BTC"
+    },
+    "test3": {
+      "sharpe": 0.78,
+      "features": 17,
+      "trades": 1,
+      "description": "REFERENCE"
+    },
+    "test4": {
+      "sharpe": 0.63,
+      "features": 28,
+      "trades": 152,
+      "description": "WITH REGIME"
+    },
+    "test5": {
+      "sharpe": 1.28,
+      "features": 108,
+      "trades": 127,
+      "description": "ADVANCED"
+    },
+    "test6": {
+      "sharpe": 0.11326785071087818,
+      "features": 117,
+      "trades": 57,
+      "description": "ULTIMATE"
+    }
+  },
+  "best_model": "test5",
+  "recommendation": "Use Test #5 (Advanced)"
+}
