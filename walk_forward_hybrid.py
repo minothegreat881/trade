@@ -41,16 +41,29 @@ class HybridWalkForward:
 
     def create_windows(self, df):
         """Create rolling windows"""
-        dates = df.index.to_period('M').unique().to_timestamp()
+        # Get unique year-month periods
+        df_copy = df.copy()
+        df_copy['year_month'] = df_copy.index.to_period('M')
+        unique_months = sorted(df_copy['year_month'].unique())
 
         windows = []
-        for i in range(len(dates) - self.train_months - self.test_months + 1):
+        i = 0
+        while i + self.train_months + self.test_months <= len(unique_months):
+            # Get month ranges
+            train_start_month = unique_months[i]
+            train_end_month = unique_months[i + self.train_months - 1]
+            test_start_month = unique_months[i + self.train_months]
+            test_end_month = unique_months[i + self.train_months + self.test_months - 1]
+
+            # Convert to timestamps (use 'M' for end dates to get last day of month)
             windows.append({
-                'train_start': dates[i],
-                'train_end': dates[i + self.train_months - 1],
-                'test_start': dates[i + self.train_months],
-                'test_end': dates[i + self.train_months + self.test_months - 1]
+                'train_start': train_start_month.to_timestamp(),
+                'train_end': train_end_month.to_timestamp('M'),  # End of month
+                'test_start': test_start_month.to_timestamp(),
+                'test_end': test_end_month.to_timestamp('M')  # End of month
             })
+
+            i += 1  # Step forward by 1 month
 
         return windows
 
@@ -74,6 +87,11 @@ class HybridWalkForward:
 
             # Prepare features
             feature_cols = [col for col in df.columns if col not in ['target', 'Close', 'Open', 'High', 'Low', 'Volume']]
+
+            # Check if target exists
+            if 'target' not in train_data.columns:
+                return None
+
             X_train = train_data[feature_cols]
             y_train = train_data['target']
             X_test = test_data[feature_cols]
@@ -159,7 +177,7 @@ class HybridWalkForward:
             }
 
         except Exception as e:
-            print(f"    ❌ ERROR ({strategy}): {str(e)}")
+            print(f"    [ERROR] ({strategy}): {str(e)}")
             return None
 
     def run_comparison(self, df, best_params):
@@ -403,7 +421,7 @@ def main():
     print(f"\nResults saved in: {save_dir}")
     print("\nNext steps:")
     print("  1. Review comparison results above")
-    print("  2. If hybrid wins → use for production")
+    print("  2. If hybrid wins - use for production")
     print("  3. Consider parameter tuning for winner")
 
 

@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "mean_sharpe": 1.0641737329688539,
+    "median_sharpe": 0.4761093022631613,
+    "std_sharpe": 3.022478491101911,
+    "min_sharpe": -5.357290292818898,
+    "max_sharpe": 5.468804940336482,
+    "pct_positive": 55.88235294117647,
+    "mean_return": 0.07940421732521509,
+    "worst_dd": -0.10029747943132714,
+    "mean_trades": 9.058823529411764,
+    "zero_trade_windows": 7
+  },
+  "strict": {
+    "mean_sharpe": 0.6924680709266373,
+    "median_sharpe": 0.0,
+    "std_sharpe": 2.674092345567749,
+    "min_sharpe": -5.144067756269826,
+    "max_sharpe": 5.468804940336482,
+    "pct_positive": 38.23529411764706,
+    "mean_return": 0.048194572583716185,
+    "worst_dd": -0.04615110530282561,
+    "mean_trades": 5.029411764705882,
+    "zero_trade_windows": 14
+  },
+  "hybrid": {
+    "mean_sharpe": 0.8724759835216929,
+    "median_sharpe": 0.028904569072404424,
+    "std_sharpe": 3.003750148934395,
+    "min_sharpe": -5.357290292818898,
+    "max_sharpe": 5.468804940336482,
+    "pct_positive": 50.0,
+    "mean_return": 0.057531457609084104,
+    "worst_dd": -0.09965933711701414,
+    "mean_trades": 7.852941176470588,
+    "zero_trade_windows": 9
+  }
+}
