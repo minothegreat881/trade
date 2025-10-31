@@ -1,0 +1,23 @@
+{
+  "ticker": "T",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.2680284829350323,
+  "test_corr": -0.1960386492163859,
+  "train_rmse": 0.032102968481902944,
+  "test_rmse": 0.030389151523150033,
+  "sharpe": -0.3916227930663151,
+  "total_return": -0.15225384296693778,
+  "avg_return": -0.0006929787325071202,
+  "volatility": 0.02809003085415602,
+  "win_rate": 0.5298013245033113,
+  "max_drawdown": -0.4966046093050242,
+  "num_trades": 151,
+  "old_sharpe": 1.755908288554887,
+  "old_test_corr": 0.0857989527252032,
+  "old_win_rate": 0.5688622754491018,
+  "sharpe_improvement": -2.147531081621202,
+  "corr_improvement": -0.2818376019415891,
+  "timestamp": "2025-10-31 16:27:57"
+}

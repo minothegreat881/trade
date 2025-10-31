@@ -1,0 +1,26 @@
+{
+  "created_at": "2025-10-31T11:34:41.407411",
+  "model_type": "DeepFeatureNetwork",
+  "training": {
+    "epochs": 20,
+    "best_val_correlation": 0.038167675617874826,
+    "final_train_loss": -1.0167344805252339,
+    "final_val_loss": -0.9179768264293671
+  },
+  "test_performance": {
+    "correlation": 0.05855713348331458,
+    "sharpe_ratio": 2.6322846864316922,
+    "annual_return": 0.20525093659200366,
+    "total_return": 0.09755849065973998,
+    "max_drawdown": -0.018128462621339596,
+    "win_rate": 0.7111111111111111,
+    "total_trades": 45,
+    "final_capital": 10975.5849065974
+  },
+  "data": {
+    "train_samples": 883,
+    "val_samples": 252,
+    "test_samples": 127,
+    "features": 117
+  }
+}

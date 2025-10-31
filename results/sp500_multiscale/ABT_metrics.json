@@ -1,0 +1,23 @@
+{
+  "ticker": "ABT",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.02847261992819128,
+  "test_rmse": 0.025460086192314407,
+  "sharpe": 0.2660699343634335,
+  "total_return": 0.015207370020588806,
+  "avg_return": 0.00042548743031547287,
+  "volatility": 0.02538582036994055,
+  "win_rate": 0.5231788079470199,
+  "max_drawdown": -0.3670872364219911,
+  "num_trades": 151,
+  "old_sharpe": 1.559859172674143,
+  "old_test_corr": NaN,
+  "old_win_rate": 0.5270935960591133,
+  "sharpe_improvement": -1.2937892383107097,
+  "corr_improvement": null,
+  "timestamp": "2025-10-31 16:27:51"
+}

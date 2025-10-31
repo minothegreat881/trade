@@ -1,0 +1,18 @@
+{
+  "ticker": "NFLX",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.587328643274042,
+  "test_corr": 0.20616170255042485,
+  "train_rmse": 0.050307555679011184,
+  "test_rmse": 0.05881431597552309,
+  "sharpe": 4.379679460214441,
+  "total_return": 10.974020780829447,
+  "avg_return": 0.013458492661516566,
+  "volatility": 0.04878141187403313,
+  "win_rate": 0.7608695652173914,
+  "max_drawdown": -0.5415733771438641,
+  "num_trades": 2,
+  "timestamp": "2025-10-31 16:24:00"
+}

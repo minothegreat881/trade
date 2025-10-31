@@ -1,0 +1,23 @@
+{
+  "ticker": "T",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.03535936586718326,
+  "test_rmse": 0.030303005372782018,
+  "sharpe": 1.7288606143356902,
+  "total_return": 0.7769664728864778,
+  "avg_return": 0.003295394088860641,
+  "volatility": 0.030258517634497845,
+  "win_rate": 0.5517241379310345,
+  "max_drawdown": -0.543785767609317,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0012806733138859272,
+  "final_val_loss": 0.0009474623948335648,
+  "timestamp": "2025-10-31 15:19:47"
+}

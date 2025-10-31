@@ -1,0 +1,18 @@
+{
+  "ticker": "RTX",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.3002986889347767,
+  "test_corr": -0.024530698249451206,
+  "train_rmse": 0.03156661755796925,
+  "test_rmse": 0.039542482472331345,
+  "sharpe": 4.763146159574153,
+  "total_return": 7.770813843861129,
+  "avg_return": 0.011479659864197708,
+  "volatility": 0.038259155758082475,
+  "win_rate": 0.645320197044335,
+  "max_drawdown": -0.40745411202865145,
+  "num_trades": 2,
+  "timestamp": "2025-10-31 16:24:06"
+}

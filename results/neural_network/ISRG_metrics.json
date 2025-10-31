@@ -1,0 +1,23 @@
+{
+  "ticker": "ISRG",
+  "approach": "MULTI-SCALE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.10394323688345693,
+  "test_corr": 0.11254519275577268,
+  "train_rmse": 0.04196368493142408,
+  "test_rmse": 0.04716519327969864,
+  "sharpe": 0.4038058587216064,
+  "total_return": 0.02288063537825491,
+  "avg_return": 0.0011855723655145257,
+  "volatility": 0.04660749079301312,
+  "win_rate": 0.47019867549668876,
+  "max_drawdown": -0.7267774417202711,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.002585854148492217,
+  "final_val_loss": 0.003040144219994545,
+  "timestamp": "2025-10-31 15:25:35"
+}

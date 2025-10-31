@@ -1,0 +1,115 @@
+======================================================================
+TEST MODEL #2 - FRESH DATA WITHOUT VIX/BTC
+======================================================================
+Date: 2025-10-30 15:25:25
+Features: 11 technical + 6 Fear & Greed ONLY
+======================================================================
+
+[STEP 1/6] DOWNLOADING FRESH DATA
+======================================================================
+Period: 2021-10-31 to 2025-10-30
+SPY data: 1004 days
+
+Downloading Fear & Greed ONLY...
+Fear & Greed data: 1460 days
+
+[STEP 2/6] MERGING PRICE + SENTIMENT DATA
+======================================================================
+Merged data: 1004 days
+
+[STEP 3/6] CREATING FEATURES
+======================================================================
+Creating Fear & Greed features ONLY...
+  Created: 5 Fear & Greed features
+  Created: 1 composite feature
+
+Final dataset: 939 days
+
+[STEP 4/6] FEATURE VERIFICATION
+======================================================================
+
+TOTAL FEATURES: 17
+  Technical: 11
+  Sentiment: 6 (Fear & Greed ONLY)
+
+TECHNICAL FEATURES (11):
+   1. return_1d
+   2. return_5d
+   3. return_10d
+   4. return_20d
+   5. volatility_20d
+   6. volatility_60d
+   7. volume_ratio
+   8. price_position
+   9. sma_20
+  10. sma_50
+  11. trend
+
+SENTIMENT FEATURES (6):
+   1. fear_greed_ma5
+   2. fear_greed_ma10
+   3. fear_greed_extreme_fear
+   4. fear_greed_extreme_greed
+   5. fear_greed_change_5d
+   6. composite_sentiment
+
+LATEST DATA (last 5 days):
+Latest date: 2025-10-23
+Days old: 7 days
+
+Fear & Greed (last 5 days):
+            fear_greed_value  fear_greed_ma10
+Date                                         
+2025-10-24                30              NaN
+2025-10-27                51              NaN
+2025-10-28                50              NaN
+2025-10-29                51              NaN
+2025-10-30                34              NaN
+
+No missing values!
+
+[STEP 5/6] TRAINING MODEL
+======================================================================
+
+Data split:
+  Train: 657 days (2022-01-27 to 2024-09-09)
+  Test:  282 days (2024-09-10 to 2025-10-23)
+
+Training XGBoost with 17 features...
+  Model trained!
+
+[STEP 6/6] MODEL EVALUATION
+======================================================================
+
+Predictions: 282
+  Mean: 0.001905
+  Positive: 242 / 282
+
+Running backtest...
+
+======================================================================
+FINAL RESULTS - TEST #2 (NO VIX/BTC)
+======================================================================
+
+RETURNS:
+  Total Return:           6.78%
+  Annual Return (CAGR):   6.04%
+
+RISK:
+  Maximum Drawdown:       -8.02%
+  Daily Volatility:       0.76%
+
+RISK-ADJUSTED:
+  Sharpe Ratio:           0.55
+
+TRADING:
+  Total Trades:           101
+  Win Rate:               55.4%
+
+======================================================================
+COMPARISON:
+======================================================================
+Test #1 (WITH VIX/BTC, 28 features):    Sharpe 0.61, 172 trades
+Test #2 (NO VIX/BTC, 17 features):      Sharpe 0.55, 101 trades
+Reference (NO VIX/BTC, 17 features):    Sharpe 1.28, 222 trades
+======================================================================

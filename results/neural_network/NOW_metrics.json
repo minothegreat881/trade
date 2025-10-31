@@ -1,0 +1,23 @@
+{
+  "ticker": "NOW",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.25775052452745517,
+  "test_corr": -0.035750828003610645,
+  "train_rmse": 0.053111928308424323,
+  "test_rmse": 0.05563445741231337,
+  "sharpe": 1.4196066835883752,
+  "total_return": 1.0219226649087294,
+  "avg_return": 0.0049418888254792945,
+  "volatility": 0.05526182282868915,
+  "win_rate": 0.4,
+  "max_drawdown": -0.4859941877380684,
+  "num_trades": 55,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0032108870800584555,
+  "final_val_loss": 0.0034617511555552483,
+  "timestamp": "2025-10-31 15:24:41"
+}

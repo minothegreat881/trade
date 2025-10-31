@@ -1,0 +1,23 @@
+{
+  "ticker": "RTX",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": -0.009354828809036125,
+  "test_corr": 0.20148505641415468,
+  "train_rmse": 0.03197441164345275,
+  "test_rmse": 0.0393935247409622,
+  "sharpe": 4.763146159574153,
+  "total_return": 7.770813843861129,
+  "avg_return": 0.011479659864197708,
+  "volatility": 0.038259155758082475,
+  "win_rate": 0.645320197044335,
+  "max_drawdown": -0.40745411202865145,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0010901023633778095,
+  "final_val_loss": 0.0016183245461434126,
+  "timestamp": "2025-10-31 15:07:49"
+}

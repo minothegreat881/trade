@@ -1,0 +1,23 @@
+{
+  "ticker": "MSFT",
+  "approach": "MULTI-SCALE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.1483558207632663,
+  "test_corr": -0.23964073037707811,
+  "train_rmse": 0.031853860641195435,
+  "test_rmse": 0.03283943471528562,
+  "sharpe": 5.071492988819209,
+  "total_return": 3.3754754259324775,
+  "avg_return": 0.010334909007670782,
+  "volatility": 0.03234976262460882,
+  "win_rate": 0.6887417218543046,
+  "max_drawdown": -0.29674774019901473,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0014965127920731902,
+  "final_val_loss": 0.0015786836156621575,
+  "timestamp": "2025-10-31 15:07:18"
+}

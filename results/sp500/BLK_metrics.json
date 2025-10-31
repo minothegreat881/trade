@@ -1,0 +1,18 @@
+{
+  "ticker": "BLK",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.43546520904373537,
+  "test_corr": 0.045267184971472876,
+  "train_rmse": 0.0356459359586084,
+  "test_rmse": 0.03640307792573707,
+  "sharpe": -0.10853221290304477,
+  "total_return": -0.16875751603696654,
+  "avg_return": -0.00024994971218773025,
+  "volatility": 0.036558995400471674,
+  "win_rate": 0.6842105263157895,
+  "max_drawdown": -0.7032466839602868,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:12"
+}

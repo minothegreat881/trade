@@ -1,0 +1,23 @@
+{
+  "ticker": "BAC",
+  "approach": "MULTI-SCALE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.051789129640656704,
+  "test_corr": 0.2652781478452744,
+  "train_rmse": 0.03853457611553109,
+  "test_rmse": 0.04249637778069113,
+  "sharpe": 3.1649670005050385,
+  "total_return": 2.0771376173356386,
+  "avg_return": 0.008388619844696,
+  "volatility": 0.04207475518433903,
+  "win_rate": 0.6688741721854304,
+  "max_drawdown": -0.6043296030485139,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.002917706035077572,
+  "final_val_loss": 0.0032478547655045986,
+  "timestamp": "2025-10-31 15:16:20"
+}

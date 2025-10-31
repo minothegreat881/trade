@@ -1,0 +1,23 @@
+{
+  "ticker": "AAPL",
+  "approach": "ADAPTIVE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.11312742951373142,
+  "test_corr": -0.043033406942483275,
+  "train_rmse": 0.034930170678316504,
+  "test_rmse": 0.05246186409546849,
+  "sharpe": 2.3970442302965207,
+  "total_return": 1.6595250519181235,
+  "avg_return": 0.007899996484173177,
+  "volatility": 0.0523179984530063,
+  "win_rate": 0.5894039735099338,
+  "max_drawdown": -0.5877975763689132,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0014921881956979632,
+  "final_val_loss": 0.0030193477869033813,
+  "timestamp": "2025-10-31 15:19:17"
+}

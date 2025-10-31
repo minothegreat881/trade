@@ -1,0 +1,23 @@
+{
+  "ticker": "INTC",
+  "approach": "MULTI-SCALE",
+  "group": "HIGH",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.2730377941462672,
+  "test_corr": 0.2765266252306167,
+  "train_rmse": 0.06776336008343195,
+  "test_rmse": 0.0770502802589557,
+  "sharpe": 2.74241084735078,
+  "total_return": 3.824864313070692,
+  "avg_return": 0.013541560458783141,
+  "volatility": 0.07838563220159966,
+  "win_rate": 0.6714285714285714,
+  "max_drawdown": -0.7362049924590877,
+  "num_trades": 70,
+  "epochs_trained": 200,
+  "final_train_loss": 0.005920671857893467,
+  "final_val_loss": 0.007244933396577835,
+  "timestamp": "2025-10-31 15:13:24"
+}

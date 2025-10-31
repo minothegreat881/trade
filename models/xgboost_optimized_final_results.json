@@ -1,0 +1,43 @@
+{
+  "model": "XGBoost",
+  "version": "optimized_final",
+  "created_at": "2025-10-30T22:53:00.980410",
+  "optimization": {
+    "n_trials": 100,
+    "n_folds": 3,
+    "best_cv_correlation": 0.292464822372802
+  },
+  "best_params": {
+    "max_depth": 6,
+    "learning_rate": 0.061273410729863045,
+    "n_estimators": 131,
+    "min_child_weight": 2,
+    "subsample": 0.8924302295412879,
+    "colsample_bytree": 0.8763421324304166,
+    "gamma": 0.00846445705064986,
+    "reg_alpha": 0.0432176432554507,
+    "reg_lambda": 0.04596188356215505
+  },
+  "cv_performance": {
+    "mean_correlation": 0.292464822372802,
+    "std_correlation": 0.07813768080150765,
+    "fold_correlations": [
+      0.3657213952045551,
+      0.32748394794275365,
+      0.18418912397109735
+    ]
+  },
+  "test_performance": {
+    "correlation": -0.042305650054828045,
+    "sharpe": 0.3685451510163972,
+    "annual_return": 0.046870804395625854,
+    "max_drawdown": -0.1658020464456954,
+    "win_rate": 0.6052631578947368,
+    "num_trades": 152
+  },
+  "comparison": {
+    "baseline_sharpe": 1.28,
+    "improvement_pct": -71.20741007684397,
+    "status": "NO_IMPROVEMENT"
+  }
+}

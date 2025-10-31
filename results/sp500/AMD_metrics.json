@@ -1,0 +1,18 @@
+{
+  "ticker": "AMD",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.7537576999130348,
+  "test_corr": -0.20432111459325542,
+  "train_rmse": 0.05528767355624131,
+  "test_rmse": 0.09429921521229752,
+  "sharpe": -3.735285096534544,
+  "total_return": -0.9929224708277308,
+  "avg_return": -0.020479706484643534,
+  "volatility": 0.0870362645125541,
+  "win_rate": 0.38461538461538464,
+  "max_drawdown": -0.9975852523248528,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:01"
+}

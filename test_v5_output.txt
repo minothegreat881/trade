@@ -1,0 +1,241 @@
+[INFO] Initialized SentimentCollector
+[INFO]   Cache directory: data\sentiment_cache
+[INFO] Downloading Fear & Greed Index...
+[INFO]   Loading from cache: fear_greed_2021-10-31_2025-10-30.csv
+[INFO] Downloading VIX data...
+[INFO]   Loading from cache: vix_2021-10-31_2025-10-30.csv
+[INFO] Downloading Bitcoin data...
+[INFO]   Loading from cache: btc_2021-10-31_2025-10-30.csv
+[INFO] 
+Merging sentiment data...
+[INFO] Merged sentiment data: 1461 rows, 8 columns
+[INFO] Initialized FeatureEngineer
+[INFO] Creating all basic features...
+[INFO] Creating return features...
+[INFO] Created 4 return features
+[INFO] Creating volatility features...
+[INFO] Created 2 volatility features
+[INFO] Creating volume features...
+[INFO] Created 1 volume feature
+[INFO] Creating price position feature...
+[INFO] Created 1 price position feature
+[INFO] Creating trend features...
+[INFO] Created 3 trend features
+[INFO] Created 11 features total
+[INFO] Initialized SentimentFeatureEngineer
+[INFO] Creating Fear & Greed features...
+[INFO]   Created 5 Fear & Greed features
+[INFO] Creating VIX features...
+[INFO]   Created 5 VIX features
+[INFO] Creating Bitcoin features...
+[INFO]   Created 4 Bitcoin features
+[INFO] Creating composite sentiment score...
+[INFO]   Created composite sentiment score
+[INFO]   Mean: 0.143, Std: 0.392
+[INFO] 
+Handling missing values...
+[INFO]   Missing values: 23 \u2192 0
+[INFO] Initialized XGBoostModel
+[INFO]   max_depth: 4
+[INFO]   learning_rate: 0.1
+[INFO]   n_estimators: 100
+[INFO] Training XGBoost model...
+[INFO]   Using validation set for early stopping
+[INFO]   Best iteration: 0
+[INFO] Training metrics:
+[INFO]   Train R\xb2: 0.0803
+[INFO]   Train MSE: 0.000405
+[INFO]   Val R\xb2: -0.0297
+[INFO]   Val MSE: 0.000424
+[WARNING]   \u26a0\ufe0f Possible overfitting detected! Train-Val gap: 0.1100
+[WARNING]      Consider: decrease max_depth, increase min_child_weight
+[INFO] Initialized Backtester:
+[INFO]   Initial capital: $10,000
+[INFO]   Transaction cost: 0.10%
+[INFO]   Holding period: 5 days
+[INFO]   Position size: 50%
+[INFO] Running backtest simulation...
+[INFO] Simulating 240 trading days...
+[INFO] Closing 1 remaining positions...
+[INFO] \u2713 Backtest complete:
+[INFO]   Total trades: 127
+[INFO]   Transaction costs: $767.27
+[INFO]   Final equity: $11,103.51
+[INFO]   Total return: 11.04%
+[WARNING] TA-Lib not found, using pandas fallback
+======================================================================
+TEST #5 - WITH ADVANCED FEATURES
+======================================================================
+Date: 2025-10-30 16:38:25
+Strategy: Add 80+ advanced technical indicators
+======================================================================
+
+[STEP 1/7] DOWNLOADING FRESH DATA
+======================================================================
+SPY data: 1004 days
+
+======================================================================
+COLLECTING SENTIMENT DATA
+======================================================================
+Date range: 2021-10-31 to 2025-10-30
+
+
+======================================================================
+SENTIMENT DATA COLLECTED
+======================================================================
+Total rows: 1461
+Total columns: 8
+Date range: 2021-10-31 to 2025-10-30
+
+Columns:
+  - fear_greed_value
+  - fear_greed_classification
+  - VIX
+  - BTC_Close
+  - BTC_Volume
+  - BTC_return_1d
+  - BTC_return_5d
+  - BTC_return_10d
+======================================================================
+
+[STEP 2/7] CREATING BASIC FEATURES
+======================================================================
+
+======================================================================
+CREATING SENTIMENT FEATURES
+======================================================================
+
+======================================================================
+SENTIMENT FEATURES COMPLETE
+======================================================================
+Total features: 15
+Total rows: 1004
+
+Feature list:
+   1. fear_greed_ma5
+   2. fear_greed_ma10
+   3. fear_greed_extreme_fear
+   4. fear_greed_extreme_greed
+   5. fear_greed_change_5d
+   6. vix_ma5
+   7. vix_ma20
+   8. vix_regime
+   9. vix_spike
+  10. vix_zscore
+  11. btc_return_5d
+  12. btc_return_10d
+  13. btc_volatility_10d
+  14. btc_momentum
+  15. composite_sentiment
+======================================================================
+Basic features: 39
+
+[STEP 3/7] CREATING ADVANCED FEATURES
+======================================================================
+[INFO] Creating advanced features...
+[INFO]   Momentum features added
+[INFO]   Volatility features added
+[INFO]   Trend features added
+[INFO]   Volume features added
+[INFO]   Pattern features added
+[INFO]   Multi-timeframe features added
+[INFO]   Microstructure features added
+[INFO] Total advanced features created: 80
+Total features after advanced: 119
+Final dataset: 800 days
+Period: 2022-08-17 to 2025-10-23
+
+[STEP 4/7] SELECTING FEATURES
+======================================================================
+
+Feature Breakdown:
+  Basic (baseline):     24
+  Sentiment:            15
+  Momentum:             16
+  Volatility:           12
+  Trend:                9
+  Volume:               18
+  Pattern:              14
+  Multi-timeframe:      9
+  Microstructure:       8
+  TOTAL:                108
+
+[STEP 5/7] SPLITTING DATA
+======================================================================
+Train: 560 days (2022-08-17 to 2024-11-06)
+Test:  240 days (2024-11-07 to 2025-10-23)
+
+[STEP 6/7] TRAINING MODEL WITH ADVANCED FEATURES
+======================================================================
+
+Top 20 Most Important Features:
+  sma_200                        0.0565
+  fear_greed_ma5                 0.0436
+  ad                             0.0419
+  sma_20                         0.0411
+  rsi_14                         0.0405
+  vix_ma5                        0.0383
+  obv_slope                      0.0352
+  fear_greed_ma10                0.0331
+  vol_ratio                      0.0326
+  obv                            0.0322
+  bb_upper                       0.0316
+  linreg_slope_20                0.0311
+  mfi                            0.0285
+  linreg_slope_50                0.0283
+  rsi_30                         0.0270
+  bb_lower                       0.0234
+  stoch_d                        0.0230
+  btc_volatility_10d             0.0228
+  sma_10                         0.0221
+  di_diff                        0.0199
+
+[STEP 7/7] MODEL EVALUATION
+======================================================================
+
+Predictions: 240
+  Mean: 0.002437
+  Positive: 240 / 240
+
+Running backtest...
+
+======================================================================
+FINAL RESULTS - WITH ADVANCED FEATURES
+======================================================================
+
+RETURNS:
+  Total Return:           11.04%
+  Annual Return (CAGR):   11.62%
+
+RISK:
+  Maximum Drawdown:       -4.79%
+  Daily Volatility:       0.56%
+
+RISK-ADJUSTED:
+  Sharpe Ratio:           1.28
+
+TRADING:
+  Total Trades:           127
+  Win Rate:               63.8%
+
+======================================================================
+COMPARISON WITH ALL TESTS
+======================================================================
+Test #1 (WITH VIX/BTC, 28 features):         Sharpe 0.61, 172 trades
+Test #2 (NO VIX/BTC, 17 features):           Sharpe 0.55, 101 trades
+Test #3 (REFERENCE, 17 features):            Sharpe 0.78, 1 trade
+Test #4 (WITH REGIME, 28 features):          Sharpe 0.63, 152 trades
+Test #5 (ADVANCED, 108 features):    Sharpe 1.28, 127 trades
+
+======================================================================
+IMPROVEMENT ANALYSIS:
+======================================================================
+Baseline (Test #4 with regime):  Sharpe 0.63
+Current (Test #5 advanced):       Sharpe 1.28
+Improvement:                      +103.9%
+
+  Advanced features IMPROVED performance!
+
+[SAVING] Saving model with advanced features...
+  Model and metadata saved!
+======================================================================

@@ -1,0 +1,23 @@
+{
+  "ticker": "SCHW",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.0507415775403636,
+  "test_rmse": 0.03555532757490664,
+  "sharpe": 3.0561086400957285,
+  "total_return": 2.4755855053579126,
+  "avg_return": 0.006767196287596286,
+  "volatility": 0.03515120807271788,
+  "win_rate": 0.5862068965517241,
+  "max_drawdown": -0.5137639383436174,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.002608903218060732,
+  "final_val_loss": 0.0012971181422472,
+  "timestamp": "2025-10-31 15:09:52"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "TMUS",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.03111630810204094,
+  "test_rmse": 0.037790886190518944,
+  "sharpe": 0.34757491168905613,
+  "total_return": 0.024224065705547027,
+  "avg_return": 0.0008234917515905054,
+  "volatility": 0.03761067283309431,
+  "win_rate": 0.5123152709359606,
+  "max_drawdown": -0.6545384860075505,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0009775885846465826,
+  "final_val_loss": 0.001437773578800261,
+  "timestamp": "2025-10-31 15:26:02"
+}

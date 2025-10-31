@@ -1,0 +1,23 @@
+{
+  "ticker": "CVX",
+  "approach": "MULTI-SCALE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.011331649054714375,
+  "test_corr": 0.13112201362143716,
+  "train_rmse": 0.03001880666565779,
+  "test_rmse": 0.039252704627141664,
+  "sharpe": -0.022576095300707304,
+  "total_return": -0.12293851187874949,
+  "avg_return": -5.582291120409716e-05,
+  "volatility": 0.039252192694559124,
+  "win_rate": 0.5629139072847682,
+  "max_drawdown": -0.6557667491450929,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0011657610302791,
+  "final_val_loss": 0.0018153834389522672,
+  "timestamp": "2025-10-31 15:21:39"
+}

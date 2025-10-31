@@ -1,0 +1,226 @@
+======================================================================
+TEST MODEL - FRESH DATA WITH ALL FEATURES
+======================================================================
+Date: 2025-10-30 15:21:45
+Period: 4 years back to TODAY
+======================================================================
+
+[STEP 1/7] DOWNLOADING FRESH DATA
+======================================================================
+Start date: 2021-10-31
+End date:   2025-10-30
+Total period: 1460 days
+
+Downloading SPY price data...
+  Downloaded: 1004 days
+  Period: 2021-11-01 to 2025-10-30
+
+Downloading sentiment data (Fear&Greed, VIX, BTC)...
+
+======================================================================
+COLLECTING SENTIMENT DATA
+======================================================================
+Date range: 2021-10-31 to 2025-10-30
+
+
+======================================================================
+SENTIMENT DATA COLLECTED
+======================================================================
+Total rows: 1461
+Total columns: 8
+Date range: 2021-10-31 to 2025-10-30
+
+Columns:
+  - fear_greed_value
+  - fear_greed_classification
+  - VIX
+  - BTC_Close
+  - BTC_Volume
+  - BTC_return_1d
+  - BTC_return_5d
+  - BTC_return_10d
+======================================================================
+  Downloaded: 1461 days
+  Period: 2021-10-31 to 2025-10-30
+
+[STEP 2/7] MERGING PRICE + SENTIMENT DATA
+======================================================================
+Merged data: 1004 days
+Period: 2021-11-01 to 2025-10-30
+
+[STEP 3/7] CREATING FEATURES
+======================================================================
+Creating technical features...
+  Created: 11 technical features
+
+Creating sentiment features...
+
+======================================================================
+CREATING SENTIMENT FEATURES
+======================================================================
+
+======================================================================
+SENTIMENT FEATURES COMPLETE
+======================================================================
+Total features: 15
+Total rows: 1004
+
+Feature list:
+   1. fear_greed_ma5
+   2. fear_greed_ma10
+   3. fear_greed_extreme_fear
+   4. fear_greed_extreme_greed
+   5. fear_greed_change_5d
+   6. vix_ma5
+   7. vix_ma20
+   8. vix_regime
+   9. vix_spike
+  10. vix_zscore
+  11. btc_return_5d
+  12. btc_return_10d
+  13. btc_volatility_10d
+  14. btc_momentum
+  15. composite_sentiment
+======================================================================
+  Created: 15 sentiment features
+
+Merging all features...
+
+Final dataset: 939 days
+Period: 2022-01-27 to 2025-10-23
+
+[STEP 4/7] FEATURE VERIFICATION
+======================================================================
+
+TOTAL FEATURES: 28
+  Technical: 11
+  Sentiment: 17
+
+TECHNICAL FEATURES (11):
+   1. return_1d
+   2. return_5d
+   3. return_10d
+   4. return_20d
+   5. volatility_20d
+   6. volatility_60d
+   7. volume_ratio
+   8. price_position
+   9. sma_20
+  10. sma_50
+  11. trend
+
+SENTIMENT FEATURES (17):
+   1. BTC_return_5d
+   2. BTC_return_10d
+   3. fear_greed_ma5
+   4. fear_greed_ma10
+   5. fear_greed_extreme_fear
+   6. fear_greed_extreme_greed
+   7. fear_greed_change_5d
+   8. vix_ma5
+   9. vix_ma20
+  10. vix_regime
+  11. vix_spike
+  12. vix_zscore
+  13. btc_return_5d
+  14. btc_return_10d
+  15. btc_volatility_10d
+  16. btc_momentum
+  17. composite_sentiment
+
+FEATURE BREAKDOWN:
+  Fear & Greed: 5 features
+  VIX: 5 features
+  BTC: 6 features
+  Other: 1 features
+
+[STEP 5/7] LATEST DATA VERIFICATION (Last 5 days)
+======================================================================
+
+Latest date: 2025-10-23
+Days old: 7 days
+
+Price data (last 5 days):
+                 Close
+Date                  
+2025-10-17  664.390015
+2025-10-20  671.299988
+2025-10-21  671.289978
+2025-10-22  667.799988
+2025-10-23  671.760010
+
+Fear & Greed (last 5 days):
+            fear_greed_value  fear_greed_ma10
+Date                                         
+2025-10-17              22.0             49.5
+2025-10-20              29.0             45.3
+2025-10-21              34.0             41.7
+2025-10-22              25.0             38.2
+2025-10-23              27.0             33.9
+
+VIX (last 5 days):
+                  VIX
+Date                 
+2025-10-17  20.780001
+2025-10-20  18.230000
+2025-10-21  17.870001
+2025-10-22  18.600000
+2025-10-23  17.299999
+
+BTC (last 5 days):
+                BTC_Close
+Date                     
+2025-10-17  106467.789062
+2025-10-20  110588.929688
+2025-10-21  108476.890625
+2025-10-22  107688.585938
+2025-10-23  110069.726562
+
+
+Missing values in features:
+  [OK] No missing values!
+
+[STEP 6/7] TRAINING MODEL
+======================================================================
+
+Data split:
+  Train: 657 days (2022-01-27 to 2024-09-09)
+  Test:  282 days (2024-09-10 to 2025-10-23)
+
+Training XGBoost with 28 features...
+  Model trained!
+
+[STEP 7/7] MODEL EVALUATION
+======================================================================
+
+Predictions: 282
+  Mean: 0.002185
+  Std:  0.001329
+  Min:  -0.000730
+  Max:  0.005428
+  Positive: 272 / 282
+
+Running backtest...
+
+======================================================================
+FINAL RESULTS
+======================================================================
+
+RETURNS:
+  Total Return:           7.86%
+  Annual Return (CAGR):   7.00%
+
+RISK:
+  Maximum Drawdown:       -16.92%
+  Daily Volatility:       0.77%
+
+RISK-ADJUSTED:
+  Sharpe Ratio:           0.61
+
+TRADING:
+  Total Trades:           172
+  Win Rate:               62.8%
+
+======================================================================
+TEST COMPLETE!
+======================================================================

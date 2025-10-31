@@ -1,0 +1,23 @@
+{
+  "ticker": "GOOGL",
+  "approach": "ADAPTIVE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.053479932397133896,
+  "test_corr": -0.007338862354228734,
+  "train_rmse": 0.04248358628609441,
+  "test_rmse": 0.04379766389219872,
+  "sharpe": 5.773109878995069,
+  "total_return": 7.89716375612943,
+  "avg_return": 0.01547189346213446,
+  "volatility": 0.042543568305565806,
+  "win_rate": 0.6556291390728477,
+  "max_drawdown": -0.41934638909198424,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0022228045854717493,
+  "final_val_loss": 0.0023144246079027653,
+  "timestamp": "2025-10-31 15:05:22"
+}

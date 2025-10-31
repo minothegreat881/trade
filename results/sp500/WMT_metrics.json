@@ -1,0 +1,18 @@
+{
+  "ticker": "WMT",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.06467457842189145,
+  "test_corr": NaN,
+  "train_rmse": 0.027838769493171867,
+  "test_rmse": 0.03711883487945292,
+  "sharpe": 1.6773995409880644,
+  "total_return": 0.92478308013534,
+  "avg_return": 0.003921582012408877,
+  "volatility": 0.03711291375935316,
+  "win_rate": 0.5763546798029556,
+  "max_drawdown": -0.635120928768953,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:58"
+}

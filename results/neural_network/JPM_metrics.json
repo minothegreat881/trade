@@ -1,0 +1,23 @@
+{
+  "ticker": "JPM",
+  "approach": "ADAPTIVE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.0597094856515587,
+  "test_corr": -0.37678530509181113,
+  "train_rmse": 0.03106014526419082,
+  "test_rmse": 0.034600278023241116,
+  "sharpe": 3.9882418502690538,
+  "total_return": 2.3657736899178525,
+  "avg_return": 0.008671937237982293,
+  "volatility": 0.03451714842515932,
+  "win_rate": 0.6556291390728477,
+  "max_drawdown": -0.44766181380651304,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0014133489457890391,
+  "final_val_loss": 0.0016341106966137886,
+  "timestamp": "2025-10-31 15:10:58"
+}

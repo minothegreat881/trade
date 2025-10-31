@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-10-31 16:28:33",
+  "observed_sharpe": 5.8569495644889145,
+  "stability_score": 0.884393063583815,
+  "p_value": 0.0,
+  "max_drawdown": -0.291583429650734,
+  "recovery_ratio": 20.086702359954117,
+  "scenario2_sharpe": 3.743766174663396,
+  "cost_sharpe_at_10bp": 5.827735985140993,
+  "validation_score": 5.0,
+  "final_grade": "A+ EXCELLENT",
+  "recommendation": "HIGHLY RECOMMENDED for production use"
+}

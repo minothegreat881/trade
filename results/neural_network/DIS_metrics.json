@@ -1,0 +1,23 @@
+{
+  "ticker": "DIS",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.04379568285411894,
+  "test_rmse": 0.045919519226205484,
+  "sharpe": -0.4151291060138173,
+  "total_return": -0.37033078680404286,
+  "avg_return": -0.0011983997625330323,
+  "volatility": 0.04582672277567158,
+  "win_rate": 0.0,
+  "max_drawdown": -0.8811142915011861,
+  "num_trades": 0,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0019354135729372501,
+  "final_val_loss": 0.0021263582166284323,
+  "timestamp": "2025-10-31 15:08:20"
+}

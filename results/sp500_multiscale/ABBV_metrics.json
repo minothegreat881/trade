@@ -1,0 +1,23 @@
+{
+  "ticker": "ABBV",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.3935926452535101,
+  "test_corr": 0.14857652745209646,
+  "train_rmse": 0.031081958227117616,
+  "test_rmse": 0.03962390161424977,
+  "sharpe": 2.2430062068545285,
+  "total_return": 1.073419324124825,
+  "avg_return": 0.005620879452571627,
+  "volatility": 0.03978085072309895,
+  "win_rate": 0.6455696202531646,
+  "max_drawdown": -0.49864133139103084,
+  "num_trades": 79,
+  "old_sharpe": 4.175599212265453,
+  "old_test_corr": 0.1750704718873631,
+  "old_win_rate": 0.6693548387096774,
+  "sharpe_improvement": -1.9325930054109248,
+  "corr_improvement": -0.026493944435266648,
+  "timestamp": "2025-10-31 16:27:41"
+}

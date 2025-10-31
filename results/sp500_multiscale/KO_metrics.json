@@ -1,0 +1,23 @@
+{
+  "ticker": "KO",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.02054231434978603,
+  "test_rmse": 0.02099530200003108,
+  "sharpe": 0.25531424728180413,
+  "total_return": 0.018050014112324098,
+  "avg_return": 0.0003365019878085806,
+  "volatility": 0.020922465194926316,
+  "win_rate": 0.4503311258278146,
+  "max_drawdown": -0.39571132031500544,
+  "num_trades": 151,
+  "old_sharpe": 2.221036086951288,
+  "old_test_corr": NaN,
+  "old_win_rate": 0.4827586206896552,
+  "sharpe_improvement": -1.965721839669484,
+  "corr_improvement": null,
+  "timestamp": "2025-10-31 16:27:45"
+}

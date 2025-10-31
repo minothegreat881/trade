@@ -1,0 +1,23 @@
+{
+  "ticker": "HD",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.2351087036708044,
+  "test_corr": NaN,
+  "train_rmse": 0.031530198882450906,
+  "test_rmse": 0.027488883670184885,
+  "sharpe": 2.189567789117302,
+  "total_return": 0.6716971308488453,
+  "avg_return": 0.0037868621468885306,
+  "volatility": 0.027454995108391535,
+  "win_rate": 0.5827814569536424,
+  "max_drawdown": -0.3988666598518332,
+  "num_trades": 151,
+  "old_sharpe": 0.0826303661442801,
+  "old_test_corr": NaN,
+  "old_win_rate": 0.5270935960591133,
+  "sharpe_improvement": 2.106937422973022,
+  "corr_improvement": null,
+  "timestamp": "2025-10-31 16:27:42"
+}

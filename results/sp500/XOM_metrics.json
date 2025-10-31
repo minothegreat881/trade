@@ -1,0 +1,18 @@
+{
+  "ticker": "XOM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.32473313801018544,
+  "test_corr": 0.3483904738707572,
+  "train_rmse": 0.03654964200530268,
+  "test_rmse": 0.0352171369856921,
+  "sharpe": 1.0556698480894569,
+  "total_return": 0.4173308337062134,
+  "avg_return": 0.00237024162856858,
+  "volatility": 0.03564222227815557,
+  "win_rate": 0.5566502463054187,
+  "max_drawdown": -0.5148961596932916,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:00"
+}

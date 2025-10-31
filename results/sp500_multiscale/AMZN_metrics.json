@@ -1,0 +1,23 @@
+{
+  "ticker": "AMZN",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.49422079916658895,
+  "test_corr": -0.2003412788683817,
+  "train_rmse": 0.040987024194773986,
+  "test_rmse": 0.046178761384036565,
+  "sharpe": -3.766940780476614,
+  "total_return": -0.8115632549838447,
+  "avg_return": -0.010070308418933527,
+  "volatility": 0.042437935590026045,
+  "win_rate": 0.46808510638297873,
+  "max_drawdown": -0.9098200479643866,
+  "num_trades": 47,
+  "old_sharpe": -1.4512721159129245,
+  "old_test_corr": -0.0216952462149511,
+  "old_win_rate": 0.4444444444444444,
+  "sharpe_improvement": -2.3156686645636895,
+  "corr_improvement": -0.1786460326534306,
+  "timestamp": "2025-10-31 16:27:31"
+}

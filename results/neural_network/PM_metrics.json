@@ -1,0 +1,23 @@
+{
+  "ticker": "PM",
+  "approach": "ORIGINAL",
+  "group": "LOW",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.03025979953462047,
+  "test_rmse": 0.04017092065605376,
+  "sharpe": 2.421671527512453,
+  "total_return": 1.9260012245245428,
+  "avg_return": 0.006098061212305122,
+  "volatility": 0.03997392692802044,
+  "win_rate": 0.5714285714285714,
+  "max_drawdown": -0.6306118170891833,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0009487050701864064,
+  "final_val_loss": 0.0016470038099214435,
+  "timestamp": "2025-10-31 15:17:48"
+}

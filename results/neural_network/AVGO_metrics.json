@@ -1,0 +1,23 @@
+{
+  "ticker": "AVGO",
+  "approach": "ADAPTIVE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.5247314613922971,
+  "test_corr": 0.08216103171836876,
+  "train_rmse": 0.059588561144883624,
+  "test_rmse": 0.06544100668305158,
+  "sharpe": 4.821239629211116,
+  "total_return": 13.430801901217665,
+  "avg_return": 0.019909200271314462,
+  "volatility": 0.0655534220712818,
+  "win_rate": 0.6356589147286822,
+  "max_drawdown": -0.6512644959304559,
+  "num_trades": 129,
+  "epochs_trained": 200,
+  "final_train_loss": 0.004934587515890598,
+  "final_val_loss": 0.00621302705258131,
+  "timestamp": "2025-10-31 15:06:50"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "TMO",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.34520330411495687,
+  "test_corr": NaN,
+  "train_rmse": 0.031001838846133913,
+  "test_rmse": 0.05237538676729533,
+  "sharpe": 1.1086356274004479,
+  "total_return": 0.42157408058899115,
+  "avg_return": 0.003656807655813215,
+  "volatility": 0.052361678141437676,
+  "win_rate": 0.44370860927152317,
+  "max_drawdown": -0.7406243436353016,
+  "num_trades": 151,
+  "old_sharpe": 1.541429065287467,
+  "old_test_corr": 0.0965879110599172,
+  "old_win_rate": 0.4615384615384615,
+  "sharpe_improvement": -0.4327934378870191,
+  "corr_improvement": NaN,
+  "timestamp": "2025-10-31 16:27:53"
+}

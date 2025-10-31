@@ -1,0 +1,19 @@
+================================================================================
+KOMPLETNA ANALYZA BASELINE MODELU
+================================================================================
+
+[1] MODEL INFORMACIE
+================================================================================
+
+Model Type: XGBoost Regressor
+Created: 2025-10-31T10:30:28.052956
+Dataset: full_dataset_2020_2025.csv
+
+Data Period:
+  Start:        2020-10-15
+  End:          2025-10-23
+Traceback (most recent call last):
+  File "C:\Users\milan\Desktop\Git-Projects\ml_trading_system\model_complete_analysis.py", line 47, in <module>
+    print(f"  Total Days:   {metrics['data_period']['total_days']}")
+                             ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+KeyError: 'total_days'

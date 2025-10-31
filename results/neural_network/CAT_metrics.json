@@ -1,0 +1,23 @@
+{
+  "ticker": "CAT",
+  "approach": "ADAPTIVE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.04598618098850084,
+  "test_corr": -0.0462458650412864,
+  "train_rmse": 0.041048087894507646,
+  "test_rmse": 0.04485916614603592,
+  "sharpe": 5.6316986501786,
+  "total_return": 7.884272337841635,
+  "avg_return": 0.015553189258769357,
+  "volatility": 0.04384098663161219,
+  "win_rate": 0.6887417218543046,
+  "max_drawdown": -0.577150214857788,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0019404732156544924,
+  "final_val_loss": 0.002266970230266452,
+  "timestamp": "2025-10-31 15:06:21"
+}

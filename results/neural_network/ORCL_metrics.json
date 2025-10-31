@@ -1,0 +1,23 @@
+{
+  "ticker": "ORCL",
+  "approach": "ADAPTIVE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.09351083940096129,
+  "test_corr": -0.08022556582133387,
+  "train_rmse": 0.04653824765187759,
+  "test_rmse": 0.0873732362954293,
+  "sharpe": 4.433833939468323,
+  "total_return": 20.93649103676351,
+  "avg_return": 0.02399087443450394,
+  "volatility": 0.08589481025482812,
+  "win_rate": 0.609271523178808,
+  "max_drawdown": -0.5943763301484093,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.002427316503599286,
+  "final_val_loss": 0.007886006496846676,
+  "timestamp": "2025-10-31 15:13:52"
+}

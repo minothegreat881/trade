@@ -1,0 +1,23 @@
+{
+  "ticker": "PEP",
+  "approach": "ADAPTIVE",
+  "group": "LOW",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.01324677974797622,
+  "test_corr": 0.12837172642514996,
+  "train_rmse": 0.022108496956774856,
+  "test_rmse": 0.02989316456604169,
+  "sharpe": -0.6943241916162812,
+  "total_return": -0.2329275506294134,
+  "avg_return": -0.001303779578707299,
+  "volatility": 0.029808639001970123,
+  "win_rate": 0.0,
+  "max_drawdown": -0.6145126250363869,
+  "num_trades": 0,
+  "epochs_trained": 200,
+  "final_train_loss": 0.002230527112260461,
+  "final_val_loss": 0.0026367446407675743,
+  "timestamp": "2025-10-31 15:14:20"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "ISRG",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.44124643092433613,
+  "test_corr": 0.06588885614873677,
+  "train_rmse": 0.03630326190332445,
+  "test_rmse": 0.05234148540200844,
+  "sharpe": 0.424882701493481,
+  "total_return": 0.03252512581683353,
+  "avg_return": 0.0012474106901555512,
+  "volatility": 0.04660587673700346,
+  "win_rate": 0.43529411764705883,
+  "max_drawdown": -0.6476456635898691,
+  "num_trades": 85,
+  "old_sharpe": -1.0746378696965262,
+  "old_test_corr": -0.0743658589108863,
+  "old_win_rate": 0.3684210526315789,
+  "sharpe_improvement": 1.4995205711900073,
+  "corr_improvement": 0.14025471505962306,
+  "timestamp": "2025-10-31 16:27:56"
+}

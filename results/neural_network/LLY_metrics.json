@@ -1,0 +1,23 @@
+{
+  "ticker": "LLY",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": -0.038389757316036395,
+  "test_corr": 0.13722935002803305,
+  "train_rmse": 0.042108894438675055,
+  "test_rmse": 0.06215132623418705,
+  "sharpe": 0.881852555543959,
+  "total_return": 0.35629882938002067,
+  "avg_return": 0.0034431487075289153,
+  "volatility": 0.06198121318488966,
+  "win_rate": 0.5665024630541872,
+  "max_drawdown": -0.8374507459846654,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0018477943958714604,
+  "final_val_loss": 0.003936369437724352,
+  "timestamp": "2025-10-31 15:22:35"
+}

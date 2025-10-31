@@ -1,0 +1,23 @@
+{
+  "ticker": "GE",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.49036012950387836,
+  "test_corr": 0.28066879516940646,
+  "train_rmse": 0.03379164992845891,
+  "test_rmse": 0.044389253082177546,
+  "sharpe": 5.29562521311066,
+  "total_return": 7.038523283987191,
+  "avg_return": 0.014925458017115327,
+  "volatility": 0.044741516094368515,
+  "win_rate": 0.6821192052980133,
+  "max_drawdown": -0.585622035227621,
+  "num_trades": 151,
+  "old_sharpe": 5.728437481653987,
+  "old_test_corr": -0.1647766942481177,
+  "old_win_rate": 0.6945812807881774,
+  "sharpe_improvement": -0.4328122685433273,
+  "corr_improvement": 0.44544548941752415,
+  "timestamp": "2025-10-31 16:27:43"
+}

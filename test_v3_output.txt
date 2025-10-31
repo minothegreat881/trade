@@ -1,0 +1,150 @@
+[INFO] Initialized XGBoostModel
+[INFO]   max_depth: 4
+[INFO]   learning_rate: 0.1
+[INFO]   n_estimators: 100
+[INFO] Training XGBoost model...
+[INFO]   Using validation set for early stopping
+[INFO]   Best iteration: 0
+[INFO] Training metrics:
+[INFO]   Train R\xb2: 0.0797
+[INFO]   Train MSE: 0.000668
+[INFO]   Val R\xb2: -0.0226
+[INFO]   Val MSE: 0.000334
+[WARNING]   \u26a0\ufe0f Possible overfitting detected! Train-Val gap: 0.1023
+[WARNING]      Consider: decrease max_depth, increase min_child_weight
+[INFO] Initialized SentimentCollector
+[INFO]   Cache directory: data\sentiment_cache
+[INFO] Downloading Fear & Greed Index...
+[INFO]   Loading from cache: fear_greed_2021-10-31_2025-10-30.csv
+[INFO] Initialized FeatureEngineer
+[INFO] Creating all basic features...
+[INFO] Creating return features...
+[INFO] Created 4 return features
+[INFO] Creating volatility features...
+[INFO] Created 2 volatility features
+[INFO] Creating volume features...
+[INFO] Created 1 volume feature
+[INFO] Creating price position feature...
+[INFO] Created 1 price position feature
+[INFO] Creating trend features...
+[INFO] Created 3 trend features
+[INFO] Created 11 features total
+[INFO] Initialized SentimentFeatureEngineer
+[INFO] Creating Fear & Greed features...
+[INFO]   Created 5 Fear & Greed features
+[INFO] Creating composite sentiment score...
+[INFO]   Created composite sentiment score
+[INFO]   Mean: -0.007, Std: 0.157
+[INFO] Initialized Backtester:
+[INFO]   Initial capital: $10,000
+[INFO]   Transaction cost: 0.10%
+[INFO]   Holding period: 5 days
+[INFO]   Position size: 50%
+[INFO] Running backtest simulation...
+[INFO] Simulating 282 trading days...
+[INFO] \u2713 Backtest complete:
+[INFO]   Total trades: 1
+[INFO]   Transaction costs: $9.99
+[INFO]   Final equity: $10,423.02
+[INFO]   Total return: 4.23%
+======================================================================
+TEST #3 - REFERENCE MODEL ON FRESH DATA
+======================================================================
+Loading model from: ../trade_reference/
+Testing on: 2024-09-10 to 2025-10-23 (FRESH)
+======================================================================
+
+[STEP 1/5] LOADING REFERENCE MODEL
+======================================================================
+Loading reference training data to extract features...
+Reference model features: 17
+Features:
+   1. return_1d
+   2. return_5d
+   3. return_10d
+   4. return_20d
+   5. volatility_20d
+   6. volatility_60d
+   7. volume_ratio
+   8. price_position
+   9. sma_20
+  10. sma_50
+  11. trend
+  12. fear_greed_ma5
+  13. fear_greed_ma10
+  14. fear_greed_extreme_fear
+  15. fear_greed_extreme_greed
+  16. fear_greed_change_5d
+  17. composite_sentiment
+
+[INFO] Model file not found. Will train using reference data...
+Training on reference data: 834 samples
+  Model trained using reference approach!
+
+[STEP 2/5] LOADING FRESH TEST DATA
+======================================================================
+Loading fresh test data (2024-09 -> 2025-10)...
+Full dataset: 939 days (2022-01-27 to 2025-10-23)
+
+[STEP 3/5] EXTRACTING TEST PERIOD
+======================================================================
+Test period: 2024-09-10 to 2025-10-23
+Test samples: 282 days
+
+Feature alignment:
+  Reference model expects: 17 features
+  Our data has: 17 features
+
+Test data ready: 282 samples, 17 features
+
+[STEP 4/5] MAKING PREDICTIONS WITH REFERENCE MODEL
+======================================================================
+Predictions: 282
+  Mean: 0.000355
+  Std:  0.000303
+  Min:  0.000234
+  Max:  0.004127
+  Positive: 282 / 282
+
+[STEP 5/5] BACKTESTING
+======================================================================
+
+======================================================================
+RESULTS - REFERENCE MODEL ON FRESH DATA
+======================================================================
+
+RETURNS:
+  Total Return:           4.23%
+  Annual Return (CAGR):   3.77%
+
+RISK:
+  Maximum Drawdown:       -0.87%
+  Daily Volatility:       0.31%
+
+RISK-ADJUSTED:
+  Sharpe Ratio:           0.78
+
+TRADING:
+  Total Trades:           1
+  Win Rate:               100.0%
+
+======================================================================
+COMPLETE COMPARISON
+======================================================================
+
+REFERENCE MODEL:
+  On reference period (2023-07 -> 2024-12):  Sharpe 1.28, 222 trades
+  On fresh period (2024-09 -> 2025-10):      Sharpe 0.78, 1 trades
+
+OUR MODELS (on fresh period):
+  Test #1 (WITH VIX/BTC, 28 features):      Sharpe 0.61, 172 trades
+  Test #2 (NO VIX/BTC, 17 features):        Sharpe 0.55, 101 trades
+  Test #3 (REFERENCE model):                Sharpe 0.78, 1 trades
+
+======================================================================
+CONCLUSION:
+======================================================================
+The reference model performs BETTER on fresh data!
+This suggests: Our model implementation differs from reference.
+We should investigate training/preprocessing differences.
+======================================================================

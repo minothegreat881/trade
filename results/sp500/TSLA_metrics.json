@@ -1,0 +1,18 @@
+{
+  "ticker": "TSLA",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.7852747748755566,
+  "test_corr": -0.12351198601391529,
+  "train_rmse": 0.058596426265991895,
+  "test_rmse": 0.09369204207142301,
+  "sharpe": -1.3037603561882005,
+  "total_return": -0.8930063358066395,
+  "avg_return": -0.007171815259595466,
+  "volatility": 0.08732359226475216,
+  "win_rate": 0.4,
+  "max_drawdown": -0.9577789969340638,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:57"
+}

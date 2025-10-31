@@ -1,0 +1,23 @@
+{
+  "ticker": "XOM",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.03779687744674242,
+  "test_rmse": 0.03565842776510744,
+  "sharpe": 1.0556698480894569,
+  "total_return": 0.4173308337062134,
+  "avg_return": 0.00237024162856858,
+  "volatility": 0.03564222227815557,
+  "win_rate": 0.5566502463054187,
+  "max_drawdown": -0.5148961596932916,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0014610373182222247,
+  "final_val_loss": 0.0013041140045970678,
+  "timestamp": "2025-10-31 15:24:10"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "UNH",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.0580544448221158,
+  "test_corr": -0.3070009840740666,
+  "train_rmse": 0.2624985683491582,
+  "test_rmse": 0.5959265211337604,
+  "sharpe": -3.5664807336205504,
+  "total_return": -0.9836708754530692,
+  "avg_return": -0.017085686571552836,
+  "volatility": 0.07604888015402475,
+  "win_rate": 0.4056603773584906,
+  "max_drawdown": -0.9941523161729812,
+  "num_trades": 106,
+  "epochs_trained": 21,
+  "final_train_loss": 1.9395495653152466,
+  "final_val_loss": 3.404290199279785,
+  "timestamp": "2025-10-31 15:23:38"
+}

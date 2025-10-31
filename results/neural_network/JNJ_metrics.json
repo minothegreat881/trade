@@ -1,0 +1,23 @@
+{
+  "ticker": "JNJ",
+  "approach": "MULTI-SCALE",
+  "group": "LOW",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.02809120556348047,
+  "test_corr": 0.06356261791172839,
+  "train_rmse": 0.022095346646156207,
+  "test_rmse": 0.0258243396367801,
+  "sharpe": 3.6972764372960603,
+  "total_return": 1.3055370858770439,
+  "avg_return": 0.005866263913827807,
+  "volatility": 0.02518720312795155,
+  "win_rate": 0.6490066225165563,
+  "max_drawdown": -0.3567635739866097,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0007219327962957323,
+  "final_val_loss": 0.000898876111023128,
+  "timestamp": "2025-10-31 15:12:55"
+}

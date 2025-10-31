@@ -1,0 +1,18 @@
+{
+  "ticker": "META",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.5575927631186971,
+  "test_corr": -0.08204760787003428,
+  "train_rmse": 0.0477797319818396,
+  "test_rmse": 0.05165343939406494,
+  "sharpe": 0.03184386847620972,
+  "total_return": -0.20538247115612884,
+  "avg_return": 9.960944691266748e-05,
+  "volatility": 0.049656371045590494,
+  "win_rate": 0.5677966101694916,
+  "max_drawdown": -0.6691806437461727,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:56"
+}

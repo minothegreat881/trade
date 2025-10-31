@@ -1,0 +1,18 @@
+{
+  "ticker": "AAPL",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.2967729601015464,
+  "test_corr": -0.09216605108742404,
+  "train_rmse": 0.03649153458427574,
+  "test_rmse": 0.05120120615849059,
+  "sharpe": -0.3807724051552844,
+  "total_return": -0.4079470549538654,
+  "avg_return": -0.0012263877391358897,
+  "volatility": 0.05112844719988169,
+  "win_rate": 0.5195530726256983,
+  "max_drawdown": -0.8796109768551257,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:55"
+}

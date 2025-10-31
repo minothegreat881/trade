@@ -1,0 +1,23 @@
+{
+  "ticker": "AMD",
+  "approach": "ORIGINAL",
+  "group": "HIGH",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.07196885795855056,
+  "test_rmse": 0.08872872393541019,
+  "sharpe": 3.944000103378953,
+  "total_return": 36.55333800439055,
+  "avg_return": 0.02155917629552894,
+  "volatility": 0.08677517868293178,
+  "win_rate": 0.5960591133004927,
+  "max_drawdown": -0.8351913336267262,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.00518914544954896,
+  "final_val_loss": 0.007882261648774147,
+  "timestamp": "2025-10-31 15:28:38"
+}

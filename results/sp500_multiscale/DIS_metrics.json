@@ -1,0 +1,23 @@
+{
+  "ticker": "DIS",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.3635417006620514,
+  "test_corr": 0.3082350039983043,
+  "train_rmse": 0.03674944394304458,
+  "test_rmse": 0.047633757031222294,
+  "sharpe": 2.503978451345625,
+  "total_return": 1.645860052697207,
+  "avg_return": 0.007547536485320919,
+  "volatility": 0.04784922459843327,
+  "win_rate": 0.7222222222222222,
+  "max_drawdown": -0.4398281611660626,
+  "num_trades": 18,
+  "old_sharpe": 4.509855430065385,
+  "old_test_corr": 0.2115686968868194,
+  "old_win_rate": 0.6212121212121212,
+  "sharpe_improvement": -2.00587697871976,
+  "corr_improvement": 0.09666630711148488,
+  "timestamp": "2025-10-31 16:27:54"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "JNJ",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.02209533201389435,
+  "test_rmse": 0.025826904105745393,
+  "sharpe": 3.6972764372960603,
+  "total_return": 1.3055370858770439,
+  "avg_return": 0.005866263913827807,
+  "volatility": 0.02518720312795155,
+  "win_rate": 0.6490066225165563,
+  "max_drawdown": -0.3567635739866097,
+  "num_trades": 151,
+  "old_sharpe": -4.523282426654036,
+  "old_test_corr": NaN,
+  "old_win_rate": 0.0,
+  "sharpe_improvement": 8.220558863950096,
+  "corr_improvement": null,
+  "timestamp": "2025-10-31 16:27:39"
+}

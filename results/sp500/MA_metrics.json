@@ -1,0 +1,18 @@
+{
+  "ticker": "MA",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.44804709753887867,
+  "test_corr": -0.37208691063867294,
+  "train_rmse": 0.03221061238165317,
+  "test_rmse": 0.03190465208501079,
+  "sharpe": -2.636079266756178,
+  "total_return": -0.677118746072592,
+  "avg_return": -0.005074552142979336,
+  "volatility": 0.030559027161291434,
+  "win_rate": 0.5795454545454546,
+  "max_drawdown": -0.8321489997155076,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:59"
+}

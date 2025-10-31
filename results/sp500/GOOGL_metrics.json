@@ -1,0 +1,18 @@
+{
+  "ticker": "GOOGL",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.47084439787941856,
+  "test_corr": 0.11627893597677302,
+  "train_rmse": 0.04064443227103491,
+  "test_rmse": 0.044537141017152754,
+  "sharpe": 0.1080750210652532,
+  "total_return": -0.13751989828886957,
+  "avg_return": 0.00030827165409328647,
+  "volatility": 0.0452802206250184,
+  "win_rate": 0.5705882352941176,
+  "max_drawdown": -0.7799637516905925,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:55"
+}

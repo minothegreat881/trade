@@ -1,0 +1,23 @@
+{
+  "ticker": "AMZN",
+  "approach": "ADAPTIVE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.08142477957085244,
+  "test_corr": 0.08304987130533611,
+  "train_rmse": 0.044937938125285994,
+  "test_rmse": 0.04338460368182145,
+  "sharpe": 1.6920999296834582,
+  "total_return": 0.7419606124791718,
+  "avg_return": 0.004622981532557517,
+  "volatility": 0.04337069898612743,
+  "win_rate": 0.5827814569536424,
+  "max_drawdown": -0.5287110320974132,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.002480416325852275,
+  "final_val_loss": 0.002349171554669738,
+  "timestamp": "2025-10-31 15:28:11"
+}

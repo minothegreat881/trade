@@ -1,0 +1,18 @@
+{
+  "ticker": "BRK-B",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.025102609838380342,
+  "test_rmse": 0.024040021891444153,
+  "sharpe": 1.269651411736102,
+  "total_return": 0.3927742935367806,
+  "avg_return": 0.0019203274548527688,
+  "volatility": 0.02400993926861905,
+  "win_rate": 0.5073891625615764,
+  "max_drawdown": -0.5045568642201498,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:57"
+}

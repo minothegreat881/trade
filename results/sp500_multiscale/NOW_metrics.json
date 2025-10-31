@@ -1,0 +1,23 @@
+{
+  "ticker": "NOW",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.4516442788596856,
+  "test_corr": -0.3230013646927624,
+  "train_rmse": 0.042269907265687814,
+  "test_rmse": 0.0596037314667212,
+  "sharpe": -4.740798483178933,
+  "total_return": -0.9236188003528681,
+  "avg_return": -0.015435710364390119,
+  "volatility": 0.051686294296669495,
+  "win_rate": 0.4,
+  "max_drawdown": -0.95732783670448,
+  "num_trades": 85,
+  "old_sharpe": 1.0260435439532627,
+  "old_test_corr": 0.1004106222814345,
+  "old_win_rate": 0.4615384615384615,
+  "sharpe_improvement": -5.766842027132196,
+  "corr_improvement": -0.4234119869741969,
+  "timestamp": "2025-10-31 16:27:54"
+}

@@ -1,0 +1,18 @@
+{
+  "ticker": "MRK",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.029412970408064815,
+  "test_rmse": 0.0450944754088872,
+  "sharpe": -0.8272225062051992,
+  "total_return": -0.493859753937379,
+  "avg_return": -0.0023404116513313896,
+  "volatility": 0.04491280506871163,
+  "win_rate": 0.47783251231527096,
+  "max_drawdown": -0.754614300318952,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:08"
+}

@@ -1,0 +1,18 @@
+{
+  "ticker": "CSCO",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.03160774788129807,
+  "test_rmse": 0.0316986855340214,
+  "sharpe": 2.7080338367080117,
+  "total_return": 1.6700574267439703,
+  "avg_return": 0.005351680958950719,
+  "volatility": 0.03137158049122994,
+  "win_rate": 0.6059113300492611,
+  "max_drawdown": -0.5395387479544719,
+  "num_trades": 1,
+  "timestamp": "2025-10-31 16:24:05"
+}

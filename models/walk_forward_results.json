@@ -1,0 +1,98 @@
+{
+  "model_version": "8.0.0-walk-forward",
+  "created_at": "2025-10-30T21:07:51.315917",
+  "methodology": "walk_forward_optimization",
+  "n_windows": 5,
+  "avg_test_sharpe": 1.0517187987931036,
+  "avg_max_dd": -0.08965382936887221,
+  "avg_win_rate": 0.5893090569561158,
+  "sharpe_std": 1.908197613696619,
+  "improvement_vs_baseline": -17.834468844288786,
+  "best_window": {
+    "fold": 5,
+    "test_sharpe": 3.061332635573165,
+    "params": {
+      "max_depth": 5,
+      "learning_rate": 0.0767210445760492,
+      "n_estimators": 105,
+      "min_child_weight": 6,
+      "subsample": 0.8093769942122703,
+      "colsample_bytree": 0.7517340647967254,
+      "gamma": 0.05239090417594274,
+      "reg_alpha": 0.3607102575013952,
+      "reg_lambda": 0.14018226528081834
+    }
+  },
+  "all_windows": [
+    {
+      "fold": 3,
+      "train_start": "2022-08-17",
+      "train_end": "2024-03-21",
+      "test_start": "2024-03-22",
+      "test_end": "2024-10-01",
+      "val_sharpe": 12.582756800219501,
+      "test_sharpe": 0.829412553363845,
+      "max_dd": -0.0718090099941968,
+      "win_rate": 0.5476190476190477,
+      "num_trades": 84,
+      "best_params": {
+        "max_depth": 5,
+        "learning_rate": 0.13561820485956244,
+        "n_estimators": 126,
+        "min_child_weight": 8,
+        "subsample": 0.7940701496807571,
+        "colsample_bytree": 0.8236588967134716,
+        "gamma": 0.08480016195935021,
+        "reg_alpha": 0.9760033158175416,
+        "reg_lambda": 0.6730679991316753
+      }
+    },
+    {
+      "fold": 4,
+      "train_start": "2022-08-17",
+      "train_end": "2024-10-01",
+      "test_start": "2024-10-02",
+      "test_end": "2025-04-14",
+      "val_sharpe": 4.629211687953423,
+      "test_sharpe": -0.7355887925576995,
+      "max_dd": -0.16580204644569527,
+      "win_rate": 0.49411764705882355,
+      "num_trades": 85,
+      "best_params": {
+        "max_depth": 4,
+        "learning_rate": 0.10079343407037916,
+        "n_estimators": 86,
+        "min_child_weight": 5,
+        "subsample": 0.8491433919387744,
+        "colsample_bytree": 0.873416279122158,
+        "gamma": 0.09709974807020118,
+        "reg_alpha": 0.10407439731328827,
+        "reg_lambda": 0.802108046853447
+      }
+    },
+    {
+      "fold": 5,
+      "train_start": "2022-08-17",
+      "train_end": "2025-04-14",
+      "test_start": "2025-04-15",
+      "test_end": "2025-10-23",
+      "val_sharpe": -1.499457258077299,
+      "test_sharpe": 3.061332635573165,
+      "max_dd": -0.03135043166672458,
+      "win_rate": 0.7261904761904762,
+      "num_trades": 84,
+      "best_params": {
+        "max_depth": 5,
+        "learning_rate": 0.0767210445760492,
+        "n_estimators": 105,
+        "min_child_weight": 6,
+        "subsample": 0.8093769942122703,
+        "colsample_bytree": 0.7517340647967254,
+        "gamma": 0.05239090417594274,
+        "reg_alpha": 0.3607102575013952,
+        "reg_lambda": 0.14018226528081834
+      }
+    }
+  ],
+  "recommendation": "Test #5 baseline is still best. Skip to Phase 3 (Position Sizing)"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "BAC",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.36634291136916053,
+  "test_corr": -0.08048272980985192,
+  "train_rmse": 0.03764170672534649,
+  "test_rmse": 0.04269217102720237,
+  "sharpe": 3.1649670005050385,
+  "total_return": 2.0771376173356386,
+  "avg_return": 0.008388619844696,
+  "volatility": 0.04207475518433903,
+  "win_rate": 0.6688741721854304,
+  "max_drawdown": -0.6043296030485139,
+  "num_trades": 151,
+  "old_sharpe": -1.6684590729190107,
+  "old_test_corr": 0.083046686275475,
+  "old_win_rate": 0.6055045871559633,
+  "sharpe_improvement": 4.833426073424049,
+  "corr_improvement": -0.16352941608532692,
+  "timestamp": "2025-10-31 16:27:42"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "WMT",
+  "approach": "MULTI-SCALE",
+  "group": "LOW",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": -0.03312913502256362,
+  "test_corr": -0.02058295318931097,
+  "train_rmse": 0.026365860272832945,
+  "test_rmse": 0.03198041329731147,
+  "sharpe": 3.888564347019741,
+  "total_return": 2.009137399009805,
+  "avg_return": 0.007819073257208256,
+  "volatility": 0.031920248413670596,
+  "win_rate": 0.5960264900662252,
+  "max_drawdown": -0.30703331508255,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.001643520430661738,
+  "final_val_loss": 0.001961812609806657,
+  "timestamp": "2025-10-31 15:12:27"
+}

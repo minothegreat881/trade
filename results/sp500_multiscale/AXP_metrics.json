@@ -1,0 +1,23 @@
+{
+  "ticker": "AXP",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.27305888447258864,
+  "test_corr": 0.05771537225783037,
+  "train_rmse": 0.0359408012753634,
+  "test_rmse": 0.04326639980527884,
+  "sharpe": 3.866681950598514,
+  "total_return": 3.198392252655178,
+  "avg_return": 0.010475657287794628,
+  "volatility": 0.04300739138757852,
+  "win_rate": 0.5894039735099338,
+  "max_drawdown": -0.47935303428151127,
+  "num_trades": 151,
+  "old_sharpe": -0.8600606063092262,
+  "old_test_corr": -0.1603539599996186,
+  "old_win_rate": 0.5108695652173914,
+  "sharpe_improvement": 4.72674255690774,
+  "corr_improvement": 0.21806933225744896,
+  "timestamp": "2025-10-31 16:27:48"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "LLY",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.4001787195450172,
+  "test_corr": 0.2909759988112819,
+  "train_rmse": 0.040056223571096526,
+  "test_rmse": 0.06431028903275637,
+  "sharpe": 0.40910151042175624,
+  "total_return": -0.06453769832486211,
+  "avg_return": 0.0016680378137185834,
+  "volatility": 0.06472545009185904,
+  "win_rate": 0.5165562913907285,
+  "max_drawdown": -0.7973818488196471,
+  "num_trades": 151,
+  "old_sharpe": 1.3546311302759488,
+  "old_test_corr": 0.3214309845743912,
+  "old_win_rate": 0.572139303482587,
+  "sharpe_improvement": -0.9455296198541926,
+  "corr_improvement": -0.030454985763109288,
+  "timestamp": "2025-10-31 16:27:35"
+}

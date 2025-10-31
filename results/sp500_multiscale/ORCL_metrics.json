@@ -1,0 +1,23 @@
+{
+  "ticker": "ORCL",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.5820607144638478,
+  "test_corr": 0.17137834326602264,
+  "train_rmse": 0.041493175640540406,
+  "test_rmse": 0.09286340674055023,
+  "sharpe": 0.0439899910212136,
+  "total_return": -0.4799331440570207,
+  "avg_return": 0.0002471328885625699,
+  "volatility": 0.0891819455393324,
+  "win_rate": 0.6507936507936508,
+  "max_drawdown": -0.9360445451017104,
+  "num_trades": 63,
+  "old_sharpe": 3.053296675438092,
+  "old_test_corr": -0.0048635034614943,
+  "old_win_rate": 0.5665024630541872,
+  "sharpe_improvement": -3.0093066844168783,
+  "corr_improvement": 0.17624184672751694,
+  "timestamp": "2025-10-31 16:27:36"
+}

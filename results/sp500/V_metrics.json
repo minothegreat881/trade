@@ -1,0 +1,18 @@
+{
+  "ticker": "V",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.34912963765287847,
+  "test_corr": -0.15215928655144723,
+  "train_rmse": 0.030770024247234656,
+  "test_rmse": 0.030406382455044224,
+  "sharpe": -1.101616229780803,
+  "total_return": -0.4055409857595962,
+  "avg_return": -0.0021007107955824285,
+  "volatility": 0.030271658267157116,
+  "win_rate": 0.539568345323741,
+  "max_drawdown": -0.7304713915059317,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:23:59"
+}

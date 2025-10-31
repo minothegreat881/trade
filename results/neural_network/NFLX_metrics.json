@@ -1,0 +1,23 @@
+{
+  "ticker": "NFLX",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.18751992184150715,
+  "test_corr": 0.13863442051536623,
+  "train_rmse": 0.06260352050576443,
+  "test_rmse": 0.048805819140804764,
+  "sharpe": 3.5500485933132286,
+  "total_return": 6.319591813907923,
+  "avg_return": 0.01104386887728531,
+  "volatility": 0.04938410806489761,
+  "win_rate": 0.5853658536585366,
+  "max_drawdown": -0.5315183943637115,
+  "num_trades": 164,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0052743880078196526,
+  "final_val_loss": 0.0032757758162915707,
+  "timestamp": "2025-10-31 15:08:51"
+}

@@ -1,0 +1,18 @@
+{
+  "ticker": "IBM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.2545249641757763,
+  "test_corr": NaN,
+  "train_rmse": 0.032467714221163915,
+  "test_rmse": 0.044640222379840194,
+  "sharpe": 3.2966456693953385,
+  "total_return": 4.2757378623479285,
+  "avg_return": 0.009182177543979956,
+  "volatility": 0.04421541295920112,
+  "win_rate": 0.5960591133004927,
+  "max_drawdown": -0.6448976079080676,
+  "num_trades": 1,
+  "timestamp": "2025-10-31 16:24:04"
+}

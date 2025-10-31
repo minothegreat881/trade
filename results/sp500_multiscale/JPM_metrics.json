@@ -1,0 +1,23 @@
+{
+  "ticker": "JPM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.27345481952859624,
+  "test_corr": 0.1752170567840872,
+  "train_rmse": 0.030457361256824224,
+  "test_rmse": 0.034780763590663316,
+  "sharpe": 2.6054860384706497,
+  "total_return": 1.1694673116089263,
+  "avg_return": 0.005764241055807262,
+  "volatility": 0.03511993103516191,
+  "win_rate": 0.6697247706422018,
+  "max_drawdown": -0.44766181380651304,
+  "num_trades": 109,
+  "old_sharpe": 1.2924591217337382,
+  "old_test_corr": 0.0575481339771789,
+  "old_win_rate": 0.6473684210526316,
+  "sharpe_improvement": 1.3130269167369115,
+  "corr_improvement": 0.1176689228069083,
+  "timestamp": "2025-10-31 16:27:34"
+}

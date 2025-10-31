@@ -1,0 +1,23 @@
+{
+  "ticker": "NEE",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.03952592954967587,
+  "test_rmse": 0.03868901604554334,
+  "sharpe": 1.9289779244854561,
+  "total_return": 1.2163433530660992,
+  "avg_return": 0.004669300907573717,
+  "volatility": 0.03842597317829924,
+  "win_rate": 0.5221674876847291,
+  "max_drawdown": -0.43723342776092,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0016194804338738322,
+  "final_val_loss": 0.0015567884547635913,
+  "timestamp": "2025-10-31 15:26:29"
+}

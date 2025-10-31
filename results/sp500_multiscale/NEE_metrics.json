@@ -1,0 +1,23 @@
+{
+  "ticker": "NEE",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.3222995825244046,
+  "test_corr": -0.23824956157248003,
+  "train_rmse": 0.03485466709913595,
+  "test_rmse": 0.04139218755985923,
+  "sharpe": -1.972220175770255,
+  "total_return": -0.589167431817287,
+  "avg_return": -0.005042482359937564,
+  "volatility": 0.040587215804993367,
+  "win_rate": 0.4700854700854701,
+  "max_drawdown": -0.7776737488213162,
+  "num_trades": 117,
+  "old_sharpe": -0.3009231129489526,
+  "old_test_corr": -0.1475293816123756,
+  "old_win_rate": 0.5149253731343284,
+  "sharpe_improvement": -1.6712970628213024,
+  "corr_improvement": -0.09072017996010442,
+  "timestamp": "2025-10-31 16:27:59"
+}

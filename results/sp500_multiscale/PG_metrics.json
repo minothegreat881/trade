@@ -1,0 +1,23 @@
+{
+  "ticker": "PG",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.02107272439518474,
+  "test_rmse": 0.025337819992157944,
+  "sharpe": -2.01096860226584,
+  "total_return": -0.40539120622704705,
+  "avg_return": -0.0031302457605869595,
+  "volatility": 0.02471003818467129,
+  "win_rate": 0.4503311258278146,
+  "max_drawdown": -0.4911035128476758,
+  "num_trades": 151,
+  "old_sharpe": -1.043629392173797,
+  "old_test_corr": NaN,
+  "old_win_rate": 0.4827586206896552,
+  "sharpe_improvement": -0.967339210092043,
+  "corr_improvement": null,
+  "timestamp": "2025-10-31 16:27:43"
+}

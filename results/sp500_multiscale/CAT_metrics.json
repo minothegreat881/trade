@@ -1,0 +1,23 @@
+{
+  "ticker": "CAT",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.41589055913359196,
+  "test_corr": -0.04701668479052371,
+  "train_rmse": 0.038454775188813586,
+  "test_rmse": 0.04592027689310056,
+  "sharpe": -0.6120412387793862,
+  "total_return": -0.3550134775810936,
+  "avg_return": -0.0017921726864692988,
+  "volatility": 0.04648356614992196,
+  "win_rate": 0.6666666666666666,
+  "max_drawdown": -0.765531220157494,
+  "num_trades": 81,
+  "old_sharpe": 3.951969998182327,
+  "old_test_corr": 0.2110297429962337,
+  "old_win_rate": 0.61,
+  "sharpe_improvement": -4.564011236961713,
+  "corr_improvement": -0.2580464277867574,
+  "timestamp": "2025-10-31 16:27:47"
+}

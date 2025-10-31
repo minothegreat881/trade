@@ -1,0 +1,23 @@
+{
+  "ticker": "NVDA",
+  "approach": "ORIGINAL",
+  "group": "HIGH",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.0751974578079389,
+  "test_rmse": 0.06650957357187655,
+  "sharpe": 2.46510087944805,
+  "total_return": 4.137373979045219,
+  "avg_return": 0.010310737162637647,
+  "volatility": 0.06639804462411864,
+  "win_rate": 0.6403940886699507,
+  "max_drawdown": -0.833553258882347,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.005728109739720821,
+  "final_val_loss": 0.004493732005357742,
+  "timestamp": "2025-10-31 15:11:30"
+}

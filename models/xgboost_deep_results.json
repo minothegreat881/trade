@@ -1,0 +1,43 @@
+{
+  "model": "XGBoost",
+  "optimization": {
+    "method": "Optuna TPE",
+    "n_trials": 500,
+    "n_folds": 5,
+    "best_trial": 1,
+    "completed_at": "2025-10-30T21:39:38.655024"
+  },
+  "best_params": {
+    "max_depth": 12,
+    "min_child_weight": 17,
+    "gamma": 1.0616955533913808,
+    "learning_rate": 0.002820996133514492,
+    "n_estimators": 132,
+    "subsample": 0.5129695700716763,
+    "colsample_bytree": 0.6673295021425665,
+    "colsample_bylevel": 0.602361513049481,
+    "reg_alpha": 4.17890272377219e-06,
+    "reg_lambda": 0.0032112643094417484,
+    "scale_pos_weight": 0.7092407909780627
+  },
+  "cv_performance": {
+    "mean_sharpe": 2.9009362240058603,
+    "std_sharpe": 4.101063554736208,
+    "fold_scores": [
+      -3.95524278441382,
+      1.1016057452146286,
+      7.776977674502186,
+      6.001219928516979,
+      3.580120556209329
+    ]
+  },
+  "test_performance": {
+    "sharpe": 0.3685451510163972,
+    "annual_return": 0.046870804395625854,
+    "max_drawdown": -0.1658020464456954,
+    "win_rate": 0.6052631578947368,
+    "num_trades": 152,
+    "improvement_vs_baseline": -71.20741007684397,
+    "status": "FAILED"
+  }
+}

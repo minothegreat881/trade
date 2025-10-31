@@ -1,0 +1,23 @@
+{
+  "ticker": "BLK",
+  "approach": "MULTI-SCALE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.027045629291362276,
+  "test_corr": -0.10630725188298086,
+  "train_rmse": 0.03464488108294557,
+  "test_rmse": 0.03539205041018438,
+  "sharpe": 3.1757113077237618,
+  "total_return": 1.6312876252640174,
+  "avg_return": 0.007065500738675713,
+  "volatility": 0.03531849598018654,
+  "win_rate": 0.6754966887417219,
+  "max_drawdown": -0.49485356935704955,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.0014385025715455413,
+  "final_val_loss": 0.0014933949569240212,
+  "timestamp": "2025-10-31 15:15:52"
+}

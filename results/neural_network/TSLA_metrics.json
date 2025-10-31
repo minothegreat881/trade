@@ -1,0 +1,23 @@
+{
+  "ticker": "TSLA",
+  "approach": "ADAPTIVE",
+  "group": "HIGH",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.5071481417373903,
+  "test_corr": -0.07977688861491856,
+  "train_rmse": 0.07569435691876622,
+  "test_rmse": 0.08918540521058287,
+  "sharpe": 0.6501577928004753,
+  "total_return": -0.04046199495082403,
+  "avg_return": 0.0035854687493674215,
+  "volatility": 0.08754421233859928,
+  "win_rate": 0.48295454545454547,
+  "max_drawdown": -0.8944546136997089,
+  "num_trades": 176,
+  "epochs_trained": 200,
+  "final_train_loss": 0.00750437006354332,
+  "final_val_loss": 0.009238606318831444,
+  "timestamp": "2025-10-31 15:26:56"
+}

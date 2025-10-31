@@ -1,0 +1,18 @@
+{
+  "ticker": "TMUS",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.13582895954727203,
+  "test_corr": NaN,
+  "train_rmse": 0.030299813282148178,
+  "test_rmse": 0.037731312365132774,
+  "sharpe": 0.34757491168905613,
+  "total_return": 0.024224065705547027,
+  "avg_return": 0.0008234917515905054,
+  "volatility": 0.03761067283309431,
+  "win_rate": 0.5123152709359606,
+  "max_drawdown": -0.6545384860075505,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:07"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "AXP",
+  "approach": "MULTI-SCALE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.02290551076150337,
+  "test_corr": 0.1664475268345934,
+  "train_rmse": 0.03669028386643061,
+  "test_rmse": 0.043254758204853035,
+  "sharpe": 3.866681950598514,
+  "total_return": 3.198392252655178,
+  "avg_return": 0.010475657287794628,
+  "volatility": 0.04300739138757852,
+  "win_rate": 0.5894039735099338,
+  "max_drawdown": -0.47935303428151127,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.00157838873565197,
+  "final_val_loss": 0.002112510148435831,
+  "timestamp": "2025-10-31 15:11:58"
+}

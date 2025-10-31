@@ -114,7 +114,9 @@ class Backtester:
             # Check for position exits
             positions_to_remove = []
             for pos in positions:
-                if (current_date - pos['entry_date']).days >= self.holding_period:
+                # Use a simple counter for holding period instead of date arithmetic
+                days_held = i - pos['entry_index']
+                if days_held >= self.holding_period:
                     # Exit position
                     exit_price = price
                     pnl = self._calculate_pnl(pos, exit_price)
@@ -161,6 +163,7 @@ class Backtester:
                     # Create position
                     pos = {
                         'entry_date': current_date,
+                        'entry_index': i,  # Store index for holding period calculation
                         'entry_price': entry_price,
                         'shares': shares,
                         'position_value': position_value,

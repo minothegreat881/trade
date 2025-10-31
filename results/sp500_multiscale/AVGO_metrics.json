@@ -1,0 +1,23 @@
+{
+  "ticker": "AVGO",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.6837923059428301,
+  "test_corr": 0.2728254013264897,
+  "train_rmse": 0.04679802169086408,
+  "test_rmse": 0.06705306048663678,
+  "sharpe": 3.7040719298300044,
+  "total_return": 6.480546658203692,
+  "avg_return": 0.015567593164972367,
+  "volatility": 0.06671789447928365,
+  "win_rate": 0.6941176470588235,
+  "max_drawdown": -0.6710338271185162,
+  "num_trades": 85,
+  "old_sharpe": 3.2157737414263963,
+  "old_test_corr": 0.2363889162538214,
+  "old_win_rate": 0.6059113300492611,
+  "sharpe_improvement": 0.48829818840360817,
+  "corr_improvement": 0.03643648507266828,
+  "timestamp": "2025-10-31 16:27:32"
+}

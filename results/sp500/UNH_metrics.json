@@ -1,0 +1,18 @@
+{
+  "ticker": "UNH",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.3671466845657963,
+  "test_corr": -0.10916218148566667,
+  "train_rmse": 0.032303816734238315,
+  "test_rmse": 0.07954678828065614,
+  "sharpe": 1.0650201019702723,
+  "total_return": 0.5703678681729833,
+  "avg_return": 0.005217567639088959,
+  "volatility": 0.07776972319761781,
+  "win_rate": 0.5298013245033113,
+  "max_drawdown": -0.9422680726111246,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:03"
+}

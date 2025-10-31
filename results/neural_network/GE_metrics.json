@@ -1,0 +1,23 @@
+{
+  "ticker": "GE",
+  "approach": "ORIGINAL",
+  "group": "MEDIUM",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.04253167445324141,
+  "test_rmse": 0.044326035138831446,
+  "sharpe": 5.728437481653987,
+  "total_return": 18.310903030447776,
+  "avg_return": 0.015648101980111604,
+  "volatility": 0.043363643013101937,
+  "win_rate": 0.6945812807881774,
+  "max_drawdown": -0.5996790383176209,
+  "num_trades": 203,
+  "epochs_trained": 200,
+  "final_train_loss": 0.001842036726884544,
+  "final_val_loss": 0.00199632509611547,
+  "timestamp": "2025-10-31 15:05:53"
+}

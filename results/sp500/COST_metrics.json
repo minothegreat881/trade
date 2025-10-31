@@ -1,0 +1,18 @@
+{
+  "ticker": "COST",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.4086434766502522,
+  "test_corr": -0.10849669233796079,
+  "train_rmse": 0.03240013001752268,
+  "test_rmse": 0.03187615253565171,
+  "sharpe": 0.12941732428280597,
+  "total_return": -0.049313516149919745,
+  "avg_return": 0.0002576441235913224,
+  "volatility": 0.031602984293984164,
+  "win_rate": 0.49214659685863876,
+  "max_drawdown": -0.5696744908238054,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:01"
+}

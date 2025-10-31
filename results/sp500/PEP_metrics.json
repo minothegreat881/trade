@@ -1,0 +1,18 @@
+{
+  "ticker": "PEP",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.02256866876680653,
+  "test_rmse": 0.030130030016106903,
+  "sharpe": -0.4095024869717959,
+  "total_return": -0.22207938937627636,
+  "avg_return": -0.0007767356823451177,
+  "volatility": 0.030110431784363505,
+  "win_rate": 0.0,
+  "max_drawdown": -0.6145126250363869,
+  "num_trades": 0,
+  "timestamp": "2025-10-31 16:24:09"
+}

@@ -1,0 +1,23 @@
+{
+  "ticker": "MCD",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": NaN,
+  "test_corr": NaN,
+  "train_rmse": 0.023697410065867983,
+  "test_rmse": 0.020700819651595086,
+  "sharpe": 0.642400252299195,
+  "total_return": 0.09853195688990746,
+  "avg_return": 0.0008365935116045371,
+  "volatility": 0.020673264422613687,
+  "win_rate": 0.5165562913907285,
+  "max_drawdown": -0.3925683250293254,
+  "num_trades": 151,
+  "old_sharpe": 0.9871164216029008,
+  "old_test_corr": NaN,
+  "old_win_rate": 0.5073891625615764,
+  "sharpe_improvement": -0.34471616930370585,
+  "corr_improvement": null,
+  "timestamp": "2025-10-31 16:27:51"
+}

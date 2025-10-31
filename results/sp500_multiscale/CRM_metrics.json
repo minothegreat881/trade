@@ -1,0 +1,23 @@
+{
+  "ticker": "CRM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.5349000448290112,
+  "test_corr": 0.3762875525938385,
+  "train_rmse": 0.04314189983737495,
+  "test_rmse": 0.042591327906415184,
+  "sharpe": -0.8705521891245558,
+  "total_return": -0.38675255685732024,
+  "avg_return": -0.0023288962471914513,
+  "volatility": 0.04246739283169107,
+  "win_rate": 0.5100671140939598,
+  "max_drawdown": -0.6511370903279096,
+  "num_trades": 149,
+  "old_sharpe": 3.2264769016127683,
+  "old_test_corr": 0.2211304943908521,
+  "old_win_rate": 0.5714285714285714,
+  "sharpe_improvement": -4.097029090737324,
+  "corr_improvement": 0.1551570582029864,
+  "timestamp": "2025-10-31 16:27:48"
+}

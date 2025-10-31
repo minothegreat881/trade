@@ -1,0 +1,18 @@
+{
+  "ticker": "SCHW",
+  "train_samples": 808,
+  "test_samples": 203,
+  "features": 124,
+  "train_corr": 0.5474997615497478,
+  "test_corr": 0.1774777673462039,
+  "train_rmse": 0.04270039990283202,
+  "test_rmse": 0.04057155250997679,
+  "sharpe": 4.207624651246654,
+  "total_return": 4.670695449577354,
+  "avg_return": 0.009171407169164949,
+  "volatility": 0.034601844822259885,
+  "win_rate": 0.8888888888888888,
+  "max_drawdown": -0.5208552589164015,
+  "num_trades": 1,
+  "timestamp": "2025-10-31 16:24:12"
+}

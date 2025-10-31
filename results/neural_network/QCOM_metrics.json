@@ -1,0 +1,23 @@
+{
+  "ticker": "QCOM",
+  "approach": "MULTI-SCALE",
+  "group": "MEDIUM",
+  "train_samples": 603,
+  "test_samples": 151,
+  "features": 185,
+  "train_corr": 0.04876703517078707,
+  "test_corr": 0.23230975633505033,
+  "train_rmse": 0.04677449590339205,
+  "test_rmse": 0.049492181837114714,
+  "sharpe": 1.160509550212744,
+  "total_return": 0.4273490791269863,
+  "avg_return": 0.003618005766727751,
+  "volatility": 0.049490382042979654,
+  "win_rate": 0.5496688741721855,
+  "max_drawdown": -0.6045755052632085,
+  "num_trades": 151,
+  "epochs_trained": 200,
+  "final_train_loss": 0.002458530943840742,
+  "final_val_loss": 0.002695092000067234,
+  "timestamp": "2025-10-31 15:23:33"
+}
